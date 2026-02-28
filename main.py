@@ -29,7 +29,11 @@ def _is_gh_rate_limited(ex: BaseException) -> bool:
 
 
 def download_manifest(
-    repo: str, version: SemanticVersion | None, *, client: Client
+    repo: str,
+    version: SemanticVersion | None,
+    *,
+    client: Client,
+    only_client_variants: bool = False,
 ) -> PackageManifest:
     if version is None:
         url = URL(f"https://raw.githubusercontent.com/{repo}/HEAD/tooth.json")
@@ -62,13 +66,29 @@ def download_manifest(
 
         manifest = PackageManifest.model_validate_json(content)
 
+    if only_client_variants:
+        manifest = manifest.model_copy(
+            update={
+                "variants": [
+                    variant for variant in manifest.variants if "client" in variant.label
+                ]
+            }
+        )
+
     logging.info(
         f"Fetched manifest for github.com/{repo}" + (f"@{version}" if version else "")
     )
 
-    if version is not None:
+    if version is not None and (not only_client_variants or len(manifest.variants) > 0):
         path = BASE_DIR / repo / "@v" / str(version) / "tooth.json"
         path.parent.mkdir(parents=True, exist_ok=True)
+
+        if only_client_variants:
+            content = manifest.model_dump_json(
+                ensure_ascii=False,
+                exclude_unset=True,
+                indent=2,
+            ).encode("utf-8")
 
         path.write_bytes(content)
 
@@ -237,7 +257,12 @@ def main() -> None:
 
             for ver in versions:
                 try:
-                    manifest = download_manifest(repo, ver, client=client)
+                    manifest = download_manifest(
+                        repo,
+                        ver,
+                        client=client,
+                        only_client_variants=True,
+                    )
                 except Exception as ex:
                     logging.error(
                         f"Failed to fetch manifest for github.com/{repo}@{ver}: {ex}"
@@ -246,7 +271,7 @@ def main() -> None:
 
                 if len(manifest.variants) == 0:
                     logging.warning(
-                        f"No variants found in manifest for github.com/{repo}@{ver}. Skipping..."
+                        f"No client variants found in manifest for github.com/{repo}@{ver}. Skipping..."
                     )
                     continue
 
