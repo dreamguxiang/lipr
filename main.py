@@ -16,6 +16,7 @@ from tenacity import retry, retry_if_exception, stop_after_attempt, wait_exponen
 from entities import (
     PackageIndex,
     PackageIndexPackage,
+    PackageIndexPackageVariant,
     PackageManifest,
 )
 
@@ -249,7 +250,13 @@ def main() -> None:
                     )
                     continue
 
-                package.versions[ver] = [variant.label for variant in manifest.variants]
+                package.versions[ver] = [
+                    PackageIndexPackageVariant(
+                        label=variant.label,
+                        dependencies=variant.dependencies,
+                    )
+                    for variant in manifest.variants
+                ]
 
             if len(package.versions) == 0:
                 logging.warning(

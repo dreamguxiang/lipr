@@ -23,6 +23,7 @@ class PackageManifestInfo(BaseModel):
 
 class PackageManifestVariant(BaseModel):
     label: PackageManifestVariantLabel = ""
+    dependencies: dict[str, str] = {}
 
 
 class PackageManifest(BaseModel):
@@ -34,11 +35,16 @@ class PackageManifest(BaseModel):
     variants: list[PackageManifestVariant] = []
 
 
+class PackageIndexPackageVariant(BaseModel):
+    label: PackageManifestVariantLabel = ""
+    dependencies: dict[str, str] = {}
+
+
 class PackageIndexPackage(BaseModel):
     info: PackageManifestInfo = PackageManifestInfo()
     stars: int
     updated_at: datetime
-    versions: dict[SemanticVersion, list[PackageManifestVariantLabel]]
+    versions: dict[SemanticVersion, list[PackageIndexPackageVariant]]
 
 
 class PackageIndex(BaseModel):
