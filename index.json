@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1526,
-      "updated_at": "2026-03-24T12:56:23Z",
+      "stars": 1527,
+      "updated_at": "2026-03-26T11:16:48Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -144,23 +144,171 @@
         ]
       }
     },
-    "github.com/Dofes/DataDrivenTagRegistry": {
+    "github.com/dreamguxiang/DynamicLights": {
       "info": {
-        "name": "Data Driven Tag Registry",
-        "description": "Data-driven tag registry for LeviLamina",
+        "name": "DynamicLights",
+        "description": "This mod brings dynamic lighting to Minecraft",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/dreamguxiang/DynamicLights/refs/heads/main/avatar.png"
+      },
+      "stars": 4,
+      "updated_at": "2026-03-14T13:37:52Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.0.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLPlaceholderApi": {
+      "info": {
+        "name": "PlaceholderApi",
+        "description": "This mod is intended for developers who want to support multilingualism.",
         "tags": [
           "platform:levilamina",
           "type:mod"
         ]
       },
       "stars": 0,
-      "updated_at": "2026-03-20T17:14:22Z",
+      "updated_at": "2026-02-04T09:36:56Z",
       "versions": {
-        "0.0.1": [
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/engsr6982/FastMiner": {
+      "info": {
+        "name": "FastMiner",
+        "description": "高性能连锁采集, 支持 Server 和 Client",
+        "tags": [
+          "type:mod",
+          "platform:levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 12,
+      "updated_at": "2026-02-04T12:59:10Z",
+      "versions": {
+        "0.14.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.8.*"
+            }
+          }
+        ],
+        "0.15.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/NameTagPlus": {
+      "info": {
+        "name": "NameTagPlus",
+        "description": "解除命名牌的使用限制",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-03-05T13:21:07Z",
+      "versions": {
+        "1.0.0": [
           {
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/LeviOptimize": {
+      "info": {
+        "name": "LeviOptimize",
+        "description": "A performance optimization mod for Minecraft Bedrock Server",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 60,
+      "updated_at": "2026-03-10T18:25:57Z",
+      "versions": {
+        "0.12.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.12.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
             }
           }
         ]
@@ -197,6 +345,77 @@
         ]
       }
     },
+    "github.com/LiteLDev/LegacyRemoteCall": {
+      "info": {
+        "name": "LegacyRemoteCall",
+        "description": "A part of LegacyScriptEngine",
+        "tags": [
+          "type:mod",
+          "platform:levilamina",
+          "library",
+          "lse"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 6,
+      "updated_at": "2026-03-20T15:59:57Z",
+      "versions": {
+        "0.17.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.0-rc.2"
+            }
+          }
+        ],
+        "0.17.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.17.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.17.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Dofes/DataDrivenTagRegistry": {
+      "info": {
+        "name": "Data Driven Tag Registry",
+        "description": "Data-driven tag registry for LeviLamina",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-03-20T17:14:22Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LiteLDev/LegacyScriptEngine": {
       "info": {
         "name": "LegacyScriptEngine",
@@ -208,8 +427,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 96,
-      "updated_at": "2026-03-24T14:11:57Z",
+      "stars": 97,
+      "updated_at": "2026-03-26T11:17:02Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -638,99 +857,6 @@
         ]
       }
     },
-    "github.com/PuceLi/NameTagPlus": {
-      "info": {
-        "name": "NameTagPlus",
-        "description": "解除命名牌的使用限制",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 0,
-      "updated_at": "2026-03-05T13:21:07Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LordBombardir/LLPlaceholderApi": {
-      "info": {
-        "name": "PlaceholderApi",
-        "description": "This mod is intended for developers who want to support multilingualism.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-02-04T09:36:56Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
-            }
-          }
-        ],
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/levilamina-loc": {
-      "info": {
-        "name": "levilamina-loc",
-        "description": "Language packs of LeviLamina",
-        "tags": [
-          "levilamina"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 1,
-      "updated_at": "2026-03-07T20:32:21Z",
-      "versions": {
-        "1.6.0": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.1": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.2": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ]
-      }
-    },
     "github.com/IceBlcokMC/DebugShape": {
       "info": {
         "name": "DebugShape",
@@ -750,115 +876,6 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/LeviOptimize": {
-      "info": {
-        "name": "LeviOptimize",
-        "description": "A performance optimization mod for Minecraft Bedrock Server",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 60,
-      "updated_at": "2026-03-10T18:25:57Z",
-      "versions": {
-        "0.12.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "0.12.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/dreamguxiang/DynamicLights": {
-      "info": {
-        "name": "DynamicLights",
-        "description": "This mod brings dynamic lighting to Minecraft",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/dreamguxiang/DynamicLights/refs/heads/main/avatar.png"
-      },
-      "stars": 4,
-      "updated_at": "2026-03-14T13:37:52Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "1.0.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "1.0.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/engsr6982/FastMiner": {
-      "info": {
-        "name": "FastMiner",
-        "description": "高性能连锁采集, 支持 Server 和 Client",
-        "tags": [
-          "type:mod",
-          "platform:levilamina"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 12,
-      "updated_at": "2026-02-04T12:59:10Z",
-      "versions": {
-        "0.14.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.8.*"
-            }
-          }
-        ],
-        "0.15.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.9.*"
             }
           }
         ]
@@ -887,55 +904,6 @@
           {
             "label": "client",
             "dependencies": {}
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/LegacyRemoteCall": {
-      "info": {
-        "name": "LegacyRemoteCall",
-        "description": "A part of LegacyScriptEngine",
-        "tags": [
-          "type:mod",
-          "platform:levilamina",
-          "library",
-          "lse"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 6,
-      "updated_at": "2026-03-20T15:59:57Z",
-      "versions": {
-        "0.17.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.0-rc.2"
-            }
-          }
-        ],
-        "0.17.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "0.17.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "0.17.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
           }
         ]
       }
@@ -969,6 +937,38 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.9.*"
             }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/levilamina-loc": {
+      "info": {
+        "name": "levilamina-loc",
+        "description": "Language packs of LeviLamina",
+        "tags": [
+          "levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 1,
+      "updated_at": "2026-03-07T20:32:21Z",
+      "versions": {
+        "1.6.0": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.1": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.2": [
+          {
+            "label": "client",
+            "dependencies": {}
           }
         ]
       }
