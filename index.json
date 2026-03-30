@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1528,
-      "updated_at": "2026-03-29T12:34:52Z",
+      "stars": 1530,
+      "updated_at": "2026-03-30T02:49:53Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -383,37 +383,6 @@
         ]
       }
     },
-    "github.com/engsr6982/FastMiner": {
-      "info": {
-        "name": "FastMiner",
-        "description": "高性能连锁采集, 支持 Server 和 Client",
-        "tags": [
-          "type:mod",
-          "platform:levilamina"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 12,
-      "updated_at": "2026-02-04T12:59:10Z",
-      "versions": {
-        "0.14.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.8.*"
-            }
-          }
-        ],
-        "0.15.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/LiteLDev/LeviOptimize": {
       "info": {
         "name": "LeviOptimize",
@@ -469,6 +438,37 @@
         ]
       }
     },
+    "github.com/engsr6982/FastMiner": {
+      "info": {
+        "name": "FastMiner",
+        "description": "高性能连锁采集, 支持 Server 和 Client",
+        "tags": [
+          "type:mod",
+          "platform:levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 12,
+      "updated_at": "2026-02-04T12:59:10Z",
+      "versions": {
+        "0.14.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.8.*"
+            }
+          }
+        ],
+        "0.15.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LiteLDev/LegacyScriptEngine": {
       "info": {
         "name": "LegacyScriptEngine",
@@ -481,7 +481,7 @@
         "avatar_url": ""
       },
       "stars": 97,
-      "updated_at": "2026-03-29T07:57:58Z",
+      "updated_at": "2026-03-30T15:52:19Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -907,37 +907,48 @@
               "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
             }
           }
-        ]
-      }
-    },
-    "github.com/LiteLDev/levilamina-loc": {
-      "info": {
-        "name": "levilamina-loc",
-        "description": "Language packs of LeviLamina",
-        "tags": [
-          "levilamina"
         ],
-        "avatar_url": ""
-      },
-      "stars": 1,
-      "updated_at": "2026-03-07T20:32:21Z",
-      "versions": {
-        "1.6.0": [
+        "0.17.9": [
           {
             "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.1": [
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
+              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
+            }
+          },
           {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.2": [
+            "label": "client_nodejs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
+              "github.com/LiteLDev/7-zip-tooth": "26.*"
+            }
+          },
           {
-            "label": "client",
-            "dependencies": {}
+            "label": "client_quickjs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
+            }
+          },
+          {
+            "label": "client_lua",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
+            }
+          },
+          {
+            "label": "client_python",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
+            }
           }
         ]
       }
@@ -969,6 +980,38 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina": "1.9.*"
             }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/levilamina-loc": {
+      "info": {
+        "name": "levilamina-loc",
+        "description": "Language packs of LeviLamina",
+        "tags": [
+          "levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 1,
+      "updated_at": "2026-03-07T20:32:21Z",
+      "versions": {
+        "1.6.0": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.1": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.2": [
+          {
+            "label": "client",
+            "dependencies": {}
           }
         ]
       }
