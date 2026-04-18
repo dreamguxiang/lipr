@@ -1,11 +1,11 @@
 {
   "format_version": 3,
   "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
-  "tooth": "https://github.com/PuceLi/PlayerIPregion",
-  "version": "1.0.0",
+  "tooth": "github.com/LiteLDev/LeviOptimize",
+  "version": "0.13.1",
   "info": {
-    "name": "PlayerIPregion",
-    "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
+    "name": "LeviOptimize",
+    "description": "A performance optimization mod for Minecraft Bedrock Server",
     "tags": [
       "platform:levilamina",
       "type:mod"
