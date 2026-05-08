@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1552,
-      "updated_at": "2026-05-05T15:21:12Z",
+      "stars": 1554,
+      "updated_at": "2026-05-08T11:15:33Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -300,7 +300,7 @@
         "avatar_url": ""
       },
       "stars": 101,
-      "updated_at": "2026-05-02T10:57:50Z",
+      "updated_at": "2026-05-08T08:41:19Z",
       "versions": {
         "0.17.0-rc.2": [
           {
