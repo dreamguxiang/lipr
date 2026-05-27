@@ -8,7 +8,7 @@
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
       "stars": 1563,
-      "updated_at": "2026-05-26T12:38:43Z",
+      "updated_at": "2026-05-27T04:28:54Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1706,29 +1706,6 @@
         ]
       }
     },
-    "github.com/LordBombardir/LLStructureLoader": {
-      "info": {
-        "name": "StructureLoader",
-        "description": "A mod that can help load MCBE structures",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 4,
-      "updated_at": "2026-05-09T10:43:37Z",
-      "versions": {
-        "1.1.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*",
-              "github.com/LordBombardir/LLPlaceholderApi#client": ">=1.0.2"
-            }
-          }
-        ]
-      }
-    },
     "github.com/LiteLDev/levilamina-loc": {
       "info": {
         "name": "levilamina-loc",
@@ -1763,6 +1740,29 @@
           {
             "label": "client",
             "dependencies": {}
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLStructureLoader": {
+      "info": {
+        "name": "StructureLoader",
+        "description": "A mod that can help load MCBE structures",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 4,
+      "updated_at": "2026-05-09T10:43:37Z",
+      "versions": {
+        "1.1.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=1.0.2"
+            }
           }
         ]
       }
