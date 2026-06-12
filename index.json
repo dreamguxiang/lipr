@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1571,
-      "updated_at": "2026-06-10T11:59:35Z",
+      "stars": 1572,
+      "updated_at": "2026-06-12T15:19:41Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1729,7 +1729,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 53,
-      "updated_at": "2026-05-31T06:08:16Z",
+      "updated_at": "2026-06-12T18:06:30Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -1777,6 +1777,15 @@
           }
         ],
         "26.10.2-rc.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.9 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.10.3": [
           {
             "label": "client",
             "dependencies": {
