@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1596,
-      "updated_at": "2026-07-09T09:15:25Z",
+      "stars": 1598,
+      "updated_at": "2026-07-10T11:24:14Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1564,7 +1564,7 @@
         ]
       },
       "stars": 23,
-      "updated_at": "2026-04-13T12:40:15Z",
+      "updated_at": "2026-07-10T14:06:23Z",
       "versions": {
         "0.3.0": [
           {
@@ -1579,6 +1579,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
+            }
+          }
+        ],
+        "0.4.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0"
             }
           }
         ]
@@ -1800,7 +1808,7 @@
         "avatar_url": ""
       },
       "stars": 12,
-      "updated_at": "2026-04-07T15:47:03Z",
+      "updated_at": "2026-07-10T12:18:07Z",
       "versions": {
         "0.14.0-rc.1": [
           {
@@ -1823,6 +1831,30 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLPowerRanks": {
+      "info": {
+        "name": "PowerRanks",
+        "description": "A mod that adds a rank (privilege) system to the game.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 15,
+      "updated_at": "2026-07-10T14:44:42Z",
+      "versions": {
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
             }
           }
         ]
@@ -2060,46 +2092,32 @@
         ]
       }
     },
-    "github.com/Dofes/DataDrivenTagRegistry": {
+    "github.com/MiracleForest/iInfiniteNightVision": {
       "info": {
-        "name": "Data Driven Tag Registry",
-        "description": "Data-driven tag registry for LeviLamina",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-03-20T17:14:22Z",
-      "versions": {
-        "0.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/PuceLi/VersionNotice": {
-      "info": {
-        "name": "VersionNotice",
-        "description": "提醒玩家注意客户端版本",
+        "name": "iInfiniteNightVision",
+        "description": "A Minecraft infinite night vision mod for the LeviLamina mod loader.",
         "tags": [
           "platform:levilamina",
           "type:mod"
         ],
-        "avatar_url": ""
+        "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
       },
-      "stars": 0,
-      "updated_at": "2026-04-19T01:52:17Z",
+      "stars": 1,
+      "updated_at": "2026-07-09T08:15:14Z",
       "versions": {
-        "1.0.1": [
+        "1.0.0": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+              "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.20.*"
             }
           }
         ]
@@ -2115,7 +2133,7 @@
         ]
       },
       "stars": 0,
-      "updated_at": "2026-07-09T16:36:08Z",
+      "updated_at": "2026-07-10T13:43:08Z",
       "versions": {
         "1.0.0": [
           {
@@ -2162,6 +2180,112 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/PlayerIPregion": {
+      "info": {
+        "name": "PlayerIPregion",
+        "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-06-21T01:23:45Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Dofes/DataDrivenTagRegistry": {
+      "info": {
+        "name": "Data Driven Tag Registry",
+        "description": "Data-driven tag registry for LeviLamina",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-03-20T17:14:22Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/VersionNotice": {
+      "info": {
+        "name": "VersionNotice",
+        "description": "提醒玩家注意客户端版本",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-04-19T01:52:17Z",
+      "versions": {
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/seetch/FastReconnect": {
+      "info": {
+        "name": "FastReconnect",
+        "description": "Automatically reconnects to the last server after a kick or connection loss",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-07-02T07:55:43Z",
+      "versions": {
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
             }
           }
         ]
