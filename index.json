@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1598,
-      "updated_at": "2026-07-10T11:24:14Z",
+      "stars": 1597,
+      "updated_at": "2026-07-11T17:30:00Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -383,7 +383,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 55,
-      "updated_at": "2026-07-02T07:03:14Z",
+      "updated_at": "2026-07-11T17:42:41Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -1836,30 +1836,6 @@
         ]
       }
     },
-    "github.com/LordBombardir/LLPowerRanks": {
-      "info": {
-        "name": "PowerRanks",
-        "description": "A mod that adds a rank (privilege) system to the game.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 15,
-      "updated_at": "2026-07-10T14:44:42Z",
-      "versions": {
-        "26.20.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/dreamguxiang/DynamicLights": {
       "info": {
         "name": "DynamicLights",
@@ -1907,32 +1883,35 @@
         ]
       }
     },
-    "github.com/MiracleForest/iAutomaticFishing": {
+    "github.com/LordBombardir/LLPowerRanks": {
       "info": {
-        "name": "iAutomaticFishing",
-        "description": "A Minecraft Autofish mod for the LeviLamina mod loader.",
+        "name": "PowerRanks",
+        "description": "A mod that adds a rank (privilege) system to the game.",
         "tags": [
           "platform:levilamina",
           "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
+        ]
       },
-      "stars": 6,
-      "updated_at": "2026-04-12T06:24:33Z",
+      "stars": 15,
+      "updated_at": "2026-07-11T17:15:21Z",
       "versions": {
-        "1.0.0": [
+        "26.20.0": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.8.*"
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
             }
           }
         ],
-        "1.1.0": [
+        "26.20.1": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.9.*"
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
             }
           }
         ]
@@ -1956,6 +1935,37 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iAutomaticFishing": {
+      "info": {
+        "name": "iAutomaticFishing",
+        "description": "A Minecraft Autofish mod for the LeviLamina mod loader.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
+      },
+      "stars": 6,
+      "updated_at": "2026-07-11T10:43:07Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.8.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.9.*"
             }
           }
         ]
