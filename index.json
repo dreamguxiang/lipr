@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1607,
-      "updated_at": "2026-07-16T18:56:12Z",
+      "stars": 1611,
+      "updated_at": "2026-07-18T16:11:00Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -406,8 +406,8 @@
         ],
         "avatar_url": "https://example.com/my-mod/avatar.png"
       },
-      "stars": 15,
-      "updated_at": "2026-07-16T10:50:13Z",
+      "stars": 17,
+      "updated_at": "2026-07-17T13:37:04Z",
       "versions": {
         "0.1.1": [
           {
@@ -480,6 +480,14 @@
               "github.com/LiteLDev/LeviLamina#client": "1.8.*"
             }
           }
+        ],
+        "0.2.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
         ]
       }
     },
@@ -535,6 +543,37 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iInfiniteNightVision": {
+      "info": {
+        "name": "iInfiniteNightVision",
+        "description": "A Minecraft infinite night vision mod for the LeviLamina mod loader.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
+      },
+      "stars": 1,
+      "updated_at": "2026-07-09T08:15:14Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.20.*"
             }
           }
         ]
@@ -610,124 +649,10 @@
         ]
       }
     },
-    "github.com/MiracleForest/iInfiniteNightVision": {
+    "github.com/PuceLi/VersionNotice": {
       "info": {
-        "name": "iInfiniteNightVision",
-        "description": "A Minecraft infinite night vision mod for the LeviLamina mod loader.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
-      },
-      "stars": 1,
-      "updated_at": "2026-07-09T08:15:14Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.10.*"
-            }
-          }
-        ],
-        "1.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/maiseth/FastReconnect": {
-      "info": {
-        "name": "FastReconnect",
-        "description": "Automatically reconnects to the last server after a kick or connection loss",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-07-15T16:15:07Z",
-      "versions": {
-        "0.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/levilamina-loc": {
-      "info": {
-        "name": "levilamina-loc",
-        "description": "Language packs of LeviLamina",
-        "tags": [
-          "levilamina"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 1,
-      "updated_at": "2026-04-08T11:09:53Z",
-      "versions": {
-        "1.6.0": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.1": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.2": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.3": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ]
-      }
-    },
-    "github.com/CoralFans-Dev/CFSP": {
-      "info": {
-        "name": "CFSP",
-        "description": "CoralFans SimulatedPlayer.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
-      },
-      "stars": 12,
-      "updated_at": "2026-07-13T03:59:42Z",
-      "versions": {
-        "26.10.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/PuceLi/NameTagPlus": {
-      "info": {
-        "name": "NameTagPlus",
-        "description": "解除命名牌的使用限制",
+        "name": "VersionNotice",
+        "description": "提醒玩家注意客户端版本",
         "tags": [
           "platform:levilamina",
           "type:mod"
@@ -735,51 +660,13 @@
         "avatar_url": ""
       },
       "stars": 0,
-      "updated_at": "2026-07-03T12:29:08Z",
+      "updated_at": "2026-04-19T01:52:17Z",
       "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
         "1.0.1": [
           {
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "1.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/Dofes/DataDrivenTagRegistry": {
-      "info": {
-        "name": "Data Driven Tag Registry",
-        "description": "Data-driven tag registry for LeviLamina",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-03-20T17:14:22Z",
-      "versions": {
-        "0.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
             }
           }
         ]
@@ -795,8 +682,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
-      "stars": 56,
-      "updated_at": "2026-07-12T16:16:15Z",
+      "stars": 57,
+      "updated_at": "2026-07-17T06:47:42Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -863,6 +750,45 @@
         ]
       }
     },
+    "github.com/PuceLi/NameTagPlus": {
+      "info": {
+        "name": "NameTagPlus",
+        "description": "解除命名牌的使用限制",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-07-03T12:29:08Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LordBombardir/LLStructureLoader": {
       "info": {
         "name": "StructureLoader",
@@ -886,1116 +812,39 @@
         ]
       }
     },
-    "github.com/GlacieTeam/Glacie": {
+    "github.com/maiseth/FastReconnect": {
       "info": {
-        "name": "Glacie",
-        "description": "BDS Multi-version",
-        "tags": [
-          "glacie",
-          "protocol",
-          "multiversion",
-          "type:mod",
-          "platform:levilamina",
-          "platform:endstone"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 107,
-      "updated_at": "2026-07-14T14:42:43Z",
-      "versions": {
-        "3.9.1": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "3.9.2": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "3.9.3": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/LegacyScriptEngine": {
-      "info": {
-        "name": "LegacyScriptEngine",
-        "description": "A plugin engine for running LLSE plugins on LeviLamina",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "plugin-engine"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 105,
-      "updated_at": "2026-07-15T06:13:21Z",
-      "versions": {
-        "0.17.0-rc.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.0-rc.1",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.0-rc.1",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.0-rc.1",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.0-rc.1"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.0-rc.1",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.0-rc.1"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.0-rc.1",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.0-rc.1"
-            }
-          }
-        ],
-        "0.17.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.4": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.5": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.6": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "git.levimc.org/ShrBox/7-zip": "24.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.7": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.8": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.9": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.10": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.11": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.12": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.13": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.14": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.17.15": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
-            }
-          }
-        ],
-        "0.18.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          }
-        ],
-        "0.18.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          }
-        ],
-        "0.18.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.18.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.18.*"
-            }
-          }
-        ],
-        "0.19.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          }
-        ],
-        "0.19.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          }
-        ],
-        "0.19.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
-              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
-            }
-          },
-          {
-            "label": "client_nodejs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*",
-              "github.com/LiteLDev/7-zip-tooth": "26.*"
-            }
-          },
-          {
-            "label": "client_quickjs",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          },
-          {
-            "label": "client_lua",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          },
-          {
-            "label": "client_python",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
-              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
-              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/PuceLi/VersionNotice": {
-      "info": {
-        "name": "VersionNotice",
-        "description": "提醒玩家注意客户端版本",
+        "name": "FastReconnect",
+        "description": "Automatically reconnects to the last server after a kick or connection loss",
         "tags": [
           "platform:levilamina",
           "type:mod"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 0,
-      "updated_at": "2026-04-19T01:52:17Z",
-      "versions": {
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/OEOTYAN/BedrockServerClientInterface": {
-      "info": {
-        "name": "BedrockServerClientInterface",
-        "description": "wow",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 23,
-      "updated_at": "2026-07-10T14:06:23Z",
-      "versions": {
-        "0.3.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
-            }
-          }
-        ],
-        "0.3.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
-            }
-          }
-        ],
-        "0.4.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/FeixiangTMC/Stipuleroo": {
-      "info": {
-        "name": "Stipuleroo",
-        "description": "Minecraft 基岩版客户端多功能辅助模组",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "type:client"
         ]
       },
       "stars": 1,
-      "updated_at": "2026-07-04T12:17:32Z",
+      "updated_at": "2026-07-18T19:24:22Z",
+      "versions": {
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Dofes/DataDrivenTagRegistry": {
+      "info": {
+        "name": "Data Driven Tag Registry",
+        "description": "Data-driven tag registry for LeviLamina",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-03-20T17:14:22Z",
       "versions": {
         "0.0.1": [
           {
@@ -2004,8 +853,31 @@
               "github.com/LiteLDev/LeviLamina#client": "1.8.*"
             }
           }
+        ]
+      }
+    },
+    "github.com/PuceLi/PlayerIPregion": {
+      "info": {
+        "name": "PlayerIPregion",
+        "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
         ],
-        "0.0.2": [
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-06-21T01:23:45Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "1.0.1": [
           {
             "label": "client",
             "dependencies": {
@@ -2062,73 +934,36 @@
         ]
       }
     },
-    "github.com/engsr6982/FastMiner": {
+    "github.com/GlacieTeam/Glacie": {
       "info": {
-        "name": "FastMiner",
-        "description": "高性能连锁采集, 支持 Server 和 Client",
+        "name": "Glacie",
+        "description": "BDS Multi-version",
         "tags": [
+          "glacie",
+          "protocol",
+          "multiversion",
           "type:mod",
-          "platform:levilamina"
+          "platform:levilamina",
+          "platform:endstone"
         ],
         "avatar_url": ""
       },
-      "stars": 13,
-      "updated_at": "2026-07-16T12:49:49Z",
+      "stars": 108,
+      "updated_at": "2026-07-18T02:43:24Z",
       "versions": {
-        "0.14.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.8.*"
-            }
-          }
-        ],
-        "0.15.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.9.*"
-            }
-          }
-        ],
-        "0.16.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.10.*"
-            }
-          }
-        ],
-        "0.17.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/CrashLogger": {
-      "info": {
-        "name": "CrashLogger",
-        "description": "Show crash log of LeviLamina",
-        "tags": [
-          "levilamina",
-          "utility"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 6,
-      "updated_at": "2026-01-16T05:00:39Z",
-      "versions": {
-        "1.3.2": [
+        "3.9.1": [
           {
             "label": "client",
             "dependencies": {}
           }
         ],
-        "1.3.3": [
+        "3.9.2": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "3.9.3": [
           {
             "label": "client",
             "dependencies": {}
@@ -2136,234 +971,32 @@
         ]
       }
     },
-    "github.com/MiracleForest/iAutomaticFishing": {
+    "github.com/FeixiangTMC/Stipuleroo": {
       "info": {
-        "name": "iAutomaticFishing",
-        "description": "A Minecraft Autofish mod for the LeviLamina mod loader.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
-      },
-      "stars": 6,
-      "updated_at": "2026-07-13T04:46:32Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.8.*"
-            }
-          }
-        ],
-        "1.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.9.*"
-            }
-          }
-        ],
-        "1.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.10.*"
-            }
-          }
-        ],
-        "1.3.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/PuceLi/PlayerIPregion": {
-      "info": {
-        "name": "PlayerIPregion",
-        "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 0,
-      "updated_at": "2026-06-21T01:23:45Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LordBombardir/LLPowerRanks": {
-      "info": {
-        "name": "PowerRanks",
-        "description": "A mod that adds a rank (privilege) system to the game.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 15,
-      "updated_at": "2026-07-11T17:15:21Z",
-      "versions": {
-        "26.20.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
-            }
-          }
-        ],
-        "26.20.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/LegacyRemoteCall": {
-      "info": {
-        "name": "LegacyRemoteCall",
-        "description": "A part of LegacyScriptEngine",
-        "tags": [
-          "type:mod",
-          "platform:levilamina",
-          "library",
-          "lse"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 8,
-      "updated_at": "2026-07-04T07:21:15Z",
-      "versions": {
-        "0.17.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.0-rc.2"
-            }
-          }
-        ],
-        "0.17.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "0.17.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "0.17.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ],
-        "0.18.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.19.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/IceBlcokMC/DebugShape": {
-      "info": {
-        "name": "DebugShape",
-        "description": "minecraft bedrock debug shape packet wrapper",
+        "name": "Stipuleroo",
+        "description": "Minecraft 基岩版客户端多功能辅助模组",
         "tags": [
           "platform:levilamina",
           "type:mod",
-          "type:library"
-        ],
-        "avatar_url": ""
+          "type:client"
+        ]
       },
-      "stars": 7,
-      "updated_at": "2026-07-05T04:33:52Z",
+      "stars": 1,
+      "updated_at": "2026-07-04T12:17:32Z",
       "versions": {
-        "0.6.0": [
+        "0.0.1": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
             }
           }
         ],
-        "0.7.0": [
+        "0.0.2": [
           {
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.8.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.9.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.9.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
         ]
