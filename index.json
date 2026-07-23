@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1615,
-      "updated_at": "2026-07-22T16:56:59Z",
+      "stars": 1616,
+      "updated_at": "2026-07-23T19:23:08Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2044,145 +2044,6 @@
         ]
       }
     },
-    "github.com/engsr6982/FastMiner": {
-      "info": {
-        "name": "FastMiner",
-        "description": "高性能连锁采集, 支持 Server 和 Client",
-        "tags": [
-          "type:mod",
-          "platform:levilamina"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 13,
-      "updated_at": "2026-07-16T12:49:49Z",
-      "versions": {
-        "0.14.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.8.*"
-            }
-          }
-        ],
-        "0.15.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "1.9.*"
-            }
-          }
-        ],
-        "0.16.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.10.*"
-            }
-          }
-        ],
-        "0.17.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/OEOTYAN/BedrockServerClientInterface": {
-      "info": {
-        "name": "BedrockServerClientInterface",
-        "description": "wow",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 23,
-      "updated_at": "2026-07-10T14:06:23Z",
-      "versions": {
-        "0.3.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
-            }
-          }
-        ],
-        "0.3.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
-            }
-          }
-        ],
-        "0.4.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/CoralFans-Dev/CFSP": {
-      "info": {
-        "name": "CFSP",
-        "description": "CoralFans SimulatedPlayer.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
-      },
-      "stars": 12,
-      "updated_at": "2026-07-13T03:59:42Z",
-      "versions": {
-        "26.10.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/FeixiangTMC/Stipuleroo": {
-      "info": {
-        "name": "Stipuleroo",
-        "description": "Minecraft 基岩版客户端多功能辅助模组",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "type:client"
-        ]
-      },
-      "stars": 2,
-      "updated_at": "2026-07-21T08:38:02Z",
-      "versions": {
-        "0.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.0.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/PuceLi/NameTagPlus": {
       "info": {
         "name": "NameTagPlus",
@@ -2249,6 +2110,183 @@
         ]
       }
     },
+    "github.com/FeixiangTMC/Stipuleroo": {
+      "info": {
+        "name": "Stipuleroo",
+        "description": "Minecraft 基岩版客户端多功能辅助模组",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "type:client"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-07-21T08:38:02Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/OEOTYAN/BedrockServerClientInterface": {
+      "info": {
+        "name": "BedrockServerClientInterface",
+        "description": "wow",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 23,
+      "updated_at": "2026-07-10T14:06:23Z",
+      "versions": {
+        "0.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
+            }
+          }
+        ],
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
+            }
+          }
+        ],
+        "0.4.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/CoralFans-Dev/CFSP": {
+      "info": {
+        "name": "CFSP",
+        "description": "CoralFans SimulatedPlayer.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
+      },
+      "stars": 12,
+      "updated_at": "2026-07-13T03:59:42Z",
+      "versions": {
+        "26.10.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/engsr6982/FastMiner": {
+      "info": {
+        "name": "FastMiner",
+        "description": "高性能连锁采集, 支持 Server 和 Client",
+        "tags": [
+          "type:mod",
+          "platform:levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 13,
+      "updated_at": "2026-07-16T12:49:49Z",
+      "versions": {
+        "0.14.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.8.*"
+            }
+          }
+        ],
+        "0.15.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.9.*"
+            }
+          }
+        ],
+        "0.16.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ],
+        "0.17.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/levilamina-loc": {
+      "info": {
+        "name": "levilamina-loc",
+        "description": "Language packs of LeviLamina",
+        "tags": [
+          "levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 1,
+      "updated_at": "2026-04-08T11:09:53Z",
+      "versions": {
+        "1.6.0": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.1": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.2": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.3": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ]
+      }
+    },
     "github.com/IceBlcokMC/DebugShape": {
       "info": {
         "name": "DebugShape",
@@ -2301,44 +2339,6 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/levilamina-loc": {
-      "info": {
-        "name": "levilamina-loc",
-        "description": "Language packs of LeviLamina",
-        "tags": [
-          "levilamina"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 1,
-      "updated_at": "2026-04-08T11:09:53Z",
-      "versions": {
-        "1.6.0": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.1": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.2": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ],
-        "1.6.3": [
-          {
-            "label": "client",
-            "dependencies": {}
           }
         ]
       }
