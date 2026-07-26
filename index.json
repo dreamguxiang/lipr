@@ -608,8 +608,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 110,
-      "updated_at": "2026-07-25T15:09:47Z",
+      "stars": 111,
+      "updated_at": "2026-07-25T23:46:25Z",
       "versions": {
         "3.9.1": [
           {
@@ -641,14 +641,22 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
-      "stars": 12,
-      "updated_at": "2026-07-25T08:26:28Z",
+      "stars": 13,
+      "updated_at": "2026-07-26T11:06:57Z",
       "versions": {
         "26.10.0-rc.1": [
           {
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0"
             }
           }
         ]
