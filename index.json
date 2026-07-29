@@ -8,7 +8,7 @@
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
       "stars": 1614,
-      "updated_at": "2026-07-28T06:12:16Z",
+      "updated_at": "2026-07-29T16:21:27Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -405,6 +405,18 @@
               "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.6"
             }
           }
+        ],
+        "26.20.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.6"
+            }
+          }
         ]
       }
     },
@@ -543,8 +555,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 108,
-      "updated_at": "2026-07-28T14:04:07Z",
+      "stars": 109,
+      "updated_at": "2026-07-29T05:21:29Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -1758,7 +1770,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 20,
-      "updated_at": "2026-07-28T17:41:48Z",
+      "updated_at": "2026-07-29T15:26:21Z",
       "versions": {
         "0.1.1": [
           {
@@ -1837,6 +1849,69 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/wo55555/Playback": {
+      "info": {
+        "name": "Playback",
+        "description": "Record, export, and replay Minecraft Bedrock client sessions.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/resources/pack_icon.png"
+      },
+      "stars": 19,
+      "updated_at": "2026-07-29T18:55:13Z",
+      "versions": {
+        "0.1.0-alpha.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.0-alpha.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.1-mc26.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.1-mc26.20": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
         ]
