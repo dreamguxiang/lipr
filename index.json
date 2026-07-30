@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1614,
-      "updated_at": "2026-07-29T16:21:27Z",
+      "stars": 1615,
+      "updated_at": "2026-07-30T17:28:50Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1770,7 +1770,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 20,
-      "updated_at": "2026-07-29T15:26:21Z",
+      "updated_at": "2026-07-30T09:46:45Z",
       "versions": {
         "0.1.1": [
           {
@@ -1867,6 +1867,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "0.3.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
         ]
       }
     },
@@ -1880,8 +1888,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/resources/pack_icon.png"
       },
-      "stars": 19,
-      "updated_at": "2026-07-29T18:55:13Z",
+      "stars": 24,
+      "updated_at": "2026-07-30T15:08:38Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -2263,8 +2271,8 @@
           "type:mod"
         ]
       },
-      "stars": 15,
-      "updated_at": "2026-07-11T17:15:21Z",
+      "stars": 16,
+      "updated_at": "2026-07-30T11:21:02Z",
       "versions": {
         "26.20.0": [
           {
