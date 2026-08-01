@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1616,
-      "updated_at": "2026-07-31T12:28:38Z",
+      "stars": 1619,
+      "updated_at": "2026-08-01T20:20:13Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -417,6 +417,18 @@
               "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.6"
             }
           }
+        ],
+        "26.20.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.7"
+            }
+          }
         ]
       }
     },
@@ -555,8 +567,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 109,
-      "updated_at": "2026-07-31T07:50:55Z",
+      "stars": 110,
+      "updated_at": "2026-08-01T11:14:30Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -1903,7 +1915,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 20,
-      "updated_at": "2026-07-31T05:49:23Z",
+      "updated_at": "2026-08-01T18:50:11Z",
       "versions": {
         "0.1.1": [
           {
@@ -2010,6 +2022,14 @@
           }
         ],
         "0.3.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.4": [
           {
             "label": "client",
             "dependencies": {
