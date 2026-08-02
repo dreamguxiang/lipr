@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1619,
-      "updated_at": "2026-08-01T20:20:13Z",
+      "stars": 1621,
+      "updated_at": "2026-08-02T12:26:23Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -567,8 +567,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 110,
-      "updated_at": "2026-08-01T11:14:30Z",
+      "stars": 111,
+      "updated_at": "2026-08-02T11:28:18Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -1867,8 +1867,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/resources/pack_icon.png"
       },
-      "stars": 25,
-      "updated_at": "2026-07-31T04:50:32Z",
+      "stars": 26,
+      "updated_at": "2026-08-02T10:31:14Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -1914,8 +1914,8 @@
         ],
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
-      "stars": 20,
-      "updated_at": "2026-08-01T18:50:11Z",
+      "stars": 21,
+      "updated_at": "2026-08-02T10:55:41Z",
       "versions": {
         "0.1.1": [
           {
@@ -2668,6 +2668,29 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iStructuralShift": {
+      "info": {
+        "name": "iStructuralShift",
+        "description": "A simple structural shift mod.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iStructuralShift/refs/heads/release/icon.gif"
+      },
+      "stars": 0,
+      "updated_at": "2026-08-02T11:56:34Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
         ]
