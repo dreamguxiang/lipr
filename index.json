@@ -1865,10 +1865,10 @@
           "platform:levilamina",
           "type:mod"
         ],
-        "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/resources/pack_icon.png"
+        "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 26,
-      "updated_at": "2026-08-02T10:31:14Z",
+      "stars": 30,
+      "updated_at": "2026-08-03T12:18:58Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -1901,6 +1901,22 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "0.1.2-mc26.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.2-mc26.20": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
         ]
       }
     },
@@ -1915,7 +1931,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 21,
-      "updated_at": "2026-08-02T10:55:41Z",
+      "updated_at": "2026-08-03T07:34:51Z",
       "versions": {
         "0.1.1": [
           {
