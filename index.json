@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1626,
-      "updated_at": "2026-08-09T12:54:43Z",
+      "stars": 1627,
+      "updated_at": "2026-08-10T18:24:52Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1867,8 +1867,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 34,
-      "updated_at": "2026-08-07T08:10:47Z",
+      "stars": 35,
+      "updated_at": "2026-08-09T22:08:36Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -2113,8 +2113,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 8,
-      "updated_at": "2026-07-04T07:19:14Z",
+      "stars": 9,
+      "updated_at": "2026-08-10T08:25:38Z",
       "versions": {
         "0.17.0-rc.1": [
           {
@@ -2512,6 +2512,45 @@
         ]
       }
     },
+    "github.com/FeixiangTMC/Stipuleroo": {
+      "info": {
+        "name": "Stipuleroo",
+        "description": "Minecraft 基岩版客户端多功能辅助模组",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "type:client"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-08-10T15:24:47Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.0.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LordBombardir/LLStructureLoader": {
       "info": {
         "name": "StructureLoader",
@@ -2612,32 +2651,24 @@
         ]
       }
     },
-    "github.com/FeixiangTMC/Stipuleroo": {
+    "github.com/MiracleForest/iScale": {
       "info": {
-        "name": "Stipuleroo",
-        "description": "Minecraft 基岩版客户端多功能辅助模组",
+        "name": "iScale",
+        "description": "A LeviLamina mod for scaling player size.",
         "tags": [
           "platform:levilamina",
-          "type:mod",
-          "type:client"
-        ]
-      },
-      "stars": 2,
-      "updated_at": "2026-08-06T11:49:50Z",
-      "versions": {
-        "0.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
+          "type:mod"
         ],
-        "0.0.2": [
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iScale/refs/heads/release/icon.gif"
+      },
+      "stars": 0,
+      "updated_at": "2026-08-10T07:11:19Z",
+      "versions": {
+        "1.0.0": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
         ]
