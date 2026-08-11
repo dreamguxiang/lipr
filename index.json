@@ -443,7 +443,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 58,
-      "updated_at": "2026-07-25T09:10:29Z",
+      "updated_at": "2026-08-11T17:53:10Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -1930,8 +1930,8 @@
         ],
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
-      "stars": 22,
-      "updated_at": "2026-08-05T16:06:25Z",
+      "stars": 23,
+      "updated_at": "2026-08-11T05:46:52Z",
       "versions": {
         "0.1.1": [
           {
@@ -2400,6 +2400,37 @@
         ]
       }
     },
+    "github.com/CoralFans-Dev/CFSP": {
+      "info": {
+        "name": "CFSP",
+        "description": "CoralFans SimulatedPlayer.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
+      },
+      "stars": 14,
+      "updated_at": "2026-08-11T17:57:46Z",
+      "versions": {
+        "26.10.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LordBombardir/LLPowerRanks": {
       "info": {
         "name": "PowerRanks",
@@ -2429,37 +2460,6 @@
               "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
               "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
               "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/CoralFans-Dev/CFSP": {
-      "info": {
-        "name": "CFSP",
-        "description": "CoralFans SimulatedPlayer.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
-      },
-      "stars": 14,
-      "updated_at": "2026-08-09T10:53:18Z",
-      "versions": {
-        "26.10.0-rc.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
-            }
-          }
-        ],
-        "26.20.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0"
             }
           }
         ]
