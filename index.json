@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1629,
-      "updated_at": "2026-08-12T18:54:03Z",
+      "stars": 1632,
+      "updated_at": "2026-08-13T17:12:27Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1940,7 +1940,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 23,
-      "updated_at": "2026-08-12T13:28:31Z",
+      "updated_at": "2026-08-13T09:35:41Z",
       "versions": {
         "0.1.1": [
           {
@@ -2071,6 +2071,14 @@
           }
         ],
         "0.3.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.7": [
           {
             "label": "client",
             "dependencies": {
@@ -2568,6 +2576,28 @@
         ]
       }
     },
+    "github.com/maiseth/FastReconnect": {
+      "info": {
+        "name": "FastReconnect",
+        "description": "Automatically reconnects to the last server after a kick or connection loss",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-08-12T20:52:43Z",
+      "versions": {
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LordBombardir/LLStructureLoader": {
       "info": {
         "name": "StructureLoader",
@@ -2763,28 +2793,6 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/maiseth/FastReconnect": {
-      "info": {
-        "name": "FastReconnect",
-        "description": "Automatically reconnects to the last server after a kick or connection loss",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 2,
-      "updated_at": "2026-08-12T20:52:43Z",
-      "versions": {
-        "0.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
             }
           }
         ]
