@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1631,
-      "updated_at": "2026-08-15T14:08:32Z",
+      "stars": 1635,
+      "updated_at": "2026-08-18T05:17:02Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -163,18 +163,6 @@
               "github.com/LiteLDev/PeEditor": "3.9.*",
               "github.com/LiteLDev/PreLoader": "1.15.7",
               "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.2"
-            }
-          }
-        ],
-        "26.10.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
-              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
-              "github.com/LiteLDev/PeEditor": "3.9.*",
-              "github.com/LiteLDev/PreLoader": "1.15.7",
-              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.3"
             }
           }
         ],
@@ -445,15 +433,6 @@
       "stars": 58,
       "updated_at": "2026-08-12T14:07:08Z",
       "versions": {
-        "26.10.1-rc.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.x <26.20.0",
-              "github.com/OEOTYAN/BedrockServerClientInterface": "0.3.1"
-            }
-          }
-        ],
         "26.10.1-rc.3": [
           {
             "label": "client",
@@ -542,8 +521,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 113,
-      "updated_at": "2026-08-12T18:19:11Z",
+      "stars": 114,
+      "updated_at": "2026-08-17T16:16:52Z",
       "versions": {
         "3.9.1": [
           {
@@ -1869,15 +1848,20 @@
     "github.com/wo55555/Playback": {
       "info": {
         "name": "Playback",
-        "description": "Record, export, and replay Minecraft Bedrock client sessions.",
+        "description": "Open-source Minecraft Bedrock replay mod with recording, cinematic camera keyframes, and experimental video export.",
         "tags": [
           "platform:levilamina",
-          "type:mod"
+          "type:mod",
+          "minecraft-bedrock",
+          "replay",
+          "recording",
+          "camera-editor",
+          "video-export"
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 35,
-      "updated_at": "2026-08-09T22:08:36Z",
+      "stars": 36,
+      "updated_at": "2026-08-18T14:19:46Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -1926,6 +1910,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "0.2.0-mc26.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
         ]
       }
     },
@@ -1939,8 +1931,8 @@
         ],
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
-      "stars": 23,
-      "updated_at": "2026-08-13T09:35:41Z",
+      "stars": 24,
+      "updated_at": "2026-08-17T23:42:20Z",
       "versions": {
         "0.1.1": [
           {
@@ -2097,8 +2089,8 @@
           "type:mod"
         ]
       },
-      "stars": 24,
-      "updated_at": "2026-07-25T02:01:26Z",
+      "stars": 25,
+      "updated_at": "2026-08-18T08:57:15Z",
       "versions": {
         "0.3.0": [
           {
@@ -2314,8 +2306,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 13,
-      "updated_at": "2026-07-16T12:49:49Z",
+      "stars": 14,
+      "updated_at": "2026-08-16T08:59:13Z",
       "versions": {
         "0.14.0-rc.1": [
           {
@@ -2435,8 +2427,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
-      "stars": 14,
-      "updated_at": "2026-08-12T13:54:49Z",
+      "stars": 15,
+      "updated_at": "2026-08-18T09:10:28Z",
       "versions": {
         "26.10.0-rc.1": [
           {
@@ -2537,6 +2529,44 @@
         ]
       }
     },
+    "github.com/MarmieQi/LHolo": {
+      "info": {
+        "name": "LHolo",
+        "description": "Litematica-style structure projection for Minecraft Bedrock Windows clients.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 4,
+      "updated_at": "2026-08-18T20:31:52Z",
+      "versions": {
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/FeixiangTMC/Stipuleroo": {
       "info": {
         "name": "Stipuleroo",
@@ -2547,8 +2577,8 @@
           "type:client"
         ]
       },
-      "stars": 2,
-      "updated_at": "2026-08-10T15:24:47Z",
+      "stars": 1,
+      "updated_at": "2026-08-18T14:17:11Z",
       "versions": {
         "0.0.1": [
           {
