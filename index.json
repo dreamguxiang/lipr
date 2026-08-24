@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1639,
-      "updated_at": "2026-08-23T16:15:06Z",
+      "stars": 1641,
+      "updated_at": "2026-08-24T10:48:29Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -577,7 +577,7 @@
         "avatar_url": ""
       },
       "stars": 112,
-      "updated_at": "2026-08-15T08:39:03Z",
+      "updated_at": "2026-08-24T11:55:11Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -1863,6 +1863,49 @@
               "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
             }
           }
+        ],
+        "0.19.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
+              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
+              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
+            }
+          },
+          {
+            "label": "client_nodejs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.19.*",
+              "github.com/LiteLDev/7-zip-tooth": "26.*"
+            }
+          },
+          {
+            "label": "client_quickjs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
+            }
+          },
+          {
+            "label": "client_lua",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
+            }
+          },
+          {
+            "label": "client_python",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.19.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
+            }
+          }
         ]
       }
     },
@@ -2269,6 +2312,68 @@
         ]
       }
     },
+    "github.com/MarmieQi/LHolo": {
+      "info": {
+        "name": "LHolo",
+        "description": "Litematica-style structure projection for Minecraft Bedrock Windows clients.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 8,
+      "updated_at": "2026-08-24T06:54:46Z",
+      "versions": {
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/engsr6982/FastMiner": {
       "info": {
         "name": "FastMiner",
@@ -2280,7 +2385,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-08-23T11:43:28Z",
+      "updated_at": "2026-08-24T17:28:53Z",
       "versions": {
         "0.14.0-rc.1": [
           {
@@ -2363,68 +2468,6 @@
           }
         ],
         "0.9.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/MarmieQi/LHolo": {
-      "info": {
-        "name": "LHolo",
-        "description": "Litematica-style structure projection for Minecraft Bedrock Windows clients.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 7,
-      "updated_at": "2026-08-23T05:40:46Z",
-      "versions": {
-        "26.20.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "26.20.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "26.20.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "26.20.4": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "26.20.5": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "26.20.6": [
           {
             "label": "client",
             "dependencies": {
@@ -2836,28 +2879,6 @@
         ]
       }
     },
-    "github.com/Unny984/Zoomidy": {
-      "info": {
-        "name": "Zoomidy",
-        "description": "Zoomify-style smooth zoom for Minecraft Bedrock Edition",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-08-21T13:21:17Z",
-      "versions": {
-        "0.3.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/PuceLi/VersionNotice": {
       "info": {
         "name": "VersionNotice",
@@ -2952,6 +2973,28 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Unny984/Zoomidy": {
+      "info": {
+        "name": "Zoomidy",
+        "description": "Zoomify-style smooth zoom for Minecraft Bedrock Edition",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-08-24T13:02:49Z",
+      "versions": {
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
         ]
