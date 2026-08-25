@@ -2322,7 +2322,7 @@
         ]
       },
       "stars": 8,
-      "updated_at": "2026-08-24T06:54:46Z",
+      "updated_at": "2026-08-25T17:08:12Z",
       "versions": {
         "26.20.1": [
           {
@@ -2371,6 +2371,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "26.20.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
         ]
       }
     },
@@ -2385,7 +2393,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-08-24T17:28:53Z",
+      "updated_at": "2026-08-24T23:04:30Z",
       "versions": {
         "0.14.0-rc.1": [
           {
