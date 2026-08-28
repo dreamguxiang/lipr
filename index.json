@@ -432,6 +432,69 @@
         ]
       }
     },
+    "github.com/LiteLDev/LeviOptimize": {
+      "info": {
+        "name": "LeviOptimize",
+        "description": "A performance optimization mod for Minecraft Bedrock Server",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 64,
+      "updated_at": "2026-08-28T01:43:56Z",
+      "versions": {
+        "0.12.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.12.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.13.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.13.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.13.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.14.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/CoralFans-Dev/CoralFans": {
       "info": {
         "name": "CoralFans",
@@ -561,6 +624,82 @@
           {
             "label": "client",
             "dependencies": {}
+          }
+        ]
+      }
+    },
+    "github.com/wo55555/Playback": {
+      "info": {
+        "name": "Playback",
+        "description": "Open-source Minecraft Bedrock replay mod with recording, cinematic camera keyframes, and experimental video export.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "minecraft-bedrock",
+          "replay",
+          "recording",
+          "camera-editor",
+          "video-export"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
+      },
+      "stars": 39,
+      "updated_at": "2026-08-23T04:19:29Z",
+      "versions": {
+        "0.1.0-alpha.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.0-alpha.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.1-mc26.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.1-mc26.20": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.1.2-mc26.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.2-mc26.20": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.2.0-mc26.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
           }
         ]
       }
@@ -1909,82 +2048,6 @@
         ]
       }
     },
-    "github.com/wo55555/Playback": {
-      "info": {
-        "name": "Playback",
-        "description": "Open-source Minecraft Bedrock replay mod with recording, cinematic camera keyframes, and experimental video export.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "minecraft-bedrock",
-          "replay",
-          "recording",
-          "camera-editor",
-          "video-export"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
-      },
-      "stars": 39,
-      "updated_at": "2026-08-23T04:19:29Z",
-      "versions": {
-        "0.1.0-alpha.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.1.0-alpha.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.1.1-mc26.10": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.1.1-mc26.20": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.1.2-mc26.10": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.1.2-mc26.20": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.2.0-mc26.10": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/chiyan1/ChiyanMap": {
       "info": {
         "name": "ChiyanMap",
@@ -2995,8 +3058,8 @@
           "type:mod"
         ]
       },
-      "stars": 0,
-      "updated_at": "2026-08-24T13:02:49Z",
+      "stars": 1,
+      "updated_at": "2026-08-28T01:57:36Z",
       "versions": {
         "0.3.1": [
           {
