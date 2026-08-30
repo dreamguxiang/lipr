@@ -1,0 +1,59 @@
+{
+  "format_version": 3,
+  "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+  "tooth": "github.com/LiteLDev/LegacyScriptEngine",
+  "version": "0.17.13",
+  "info": {
+    "name": "LegacyScriptEngine",
+    "description": "A plugin engine for running LLSE plugins on LeviLamina",
+    "tags": [
+      "platform:levilamina",
+      "type:mod",
+      "plugin-engine"
+    ],
+    "avatar_url": ""
+  },
+  "variants": [
+    {
+      "label": "client",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+        "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
+        "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
+      }
+    },
+    {
+      "label": "client_nodejs",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+        "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+        "github.com/LiteLDev/LegacyMoney#client": "0.17.*",
+        "github.com/LiteLDev/7-zip-tooth": "26.*"
+      }
+    },
+    {
+      "label": "client_quickjs",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+        "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+        "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
+      }
+    },
+    {
+      "label": "client_lua",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+        "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+        "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
+      }
+    },
+    {
+      "label": "client_python",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "1.9.*",
+        "github.com/LiteLDev/LegacyRemoteCall#client": "0.17.*",
+        "github.com/LiteLDev/LegacyMoney#client": "0.17.*"
+      }
+    }
+  ]
+}
