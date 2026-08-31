@@ -1,5 +1,437 @@
 {
   "packages": {
+    "github.com/LiteLDev/LeviLamina": {
+      "info": {
+        "name": "LeviLamina",
+        "description": "A lightweight, modular and versatile mod loader for Minecraft Bedrock Edition.",
+        "tags": [],
+        "avatar_url": "https://lamina.levimc.org/logo.svg"
+      },
+      "stars": 1648,
+      "updated_at": "2026-08-31T18:57:34Z",
+      "versions": {
+        "1.8.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.124-client.2"
+            }
+          }
+        ],
+        "1.8.0-rc.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.124-client.3"
+            }
+          }
+        ],
+        "1.9.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.3"
+            }
+          }
+        ],
+        "1.9.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.3"
+            }
+          }
+        ],
+        "1.9.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.4"
+            }
+          }
+        ],
+        "1.9.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.6"
+            }
+          }
+        ],
+        "1.9.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.6"
+            }
+          }
+        ],
+        "1.9.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.8"
+            }
+          }
+        ],
+        "1.9.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.9"
+            }
+          }
+        ],
+        "1.9.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.9"
+            }
+          }
+        ],
+        "1.9.8": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.10"
+            }
+          }
+        ],
+        "1.9.9": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "1.21.132-client.11"
+            }
+          }
+        ],
+        "26.10.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.2"
+            }
+          }
+        ],
+        "26.10.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.3"
+            }
+          }
+        ],
+        "26.10.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.5"
+            }
+          }
+        ],
+        "26.10.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.7"
+            }
+          }
+        ],
+        "26.10.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.8"
+            }
+          }
+        ],
+        "26.10.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.9"
+            }
+          }
+        ],
+        "26.10.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.10"
+            }
+          }
+        ],
+        "26.10.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.11"
+            }
+          }
+        ],
+        "26.10.8": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.12"
+            }
+          }
+        ],
+        "26.10.9": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.12"
+            }
+          }
+        ],
+        "26.10.10": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.13"
+            }
+          }
+        ],
+        "26.10.11": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.14"
+            }
+          }
+        ],
+        "26.10.12": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.15"
+            }
+          }
+        ],
+        "26.10.13": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.16"
+            }
+          }
+        ],
+        "26.10.14": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.10.4-client.17"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.4"
+            }
+          }
+        ],
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.4"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.4"
+            }
+          }
+        ],
+        "26.20.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.5"
+            }
+          }
+        ],
+        "26.20.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.6"
+            }
+          }
+        ],
+        "26.20.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.6"
+            }
+          }
+        ],
+        "26.20.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.6"
+            }
+          }
+        ],
+        "26.20.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.15.7",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.7"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LiteLDev/LeviOptimize": {
       "info": {
         "name": "LeviOptimize",
@@ -58,6 +490,102 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/CoralFans-Dev/CoralFans": {
+      "info": {
+        "name": "CoralFans",
+        "description": "A tech-survival assistant mod for Bedrock Version.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
+      },
+      "stars": 58,
+      "updated_at": "2026-08-12T14:07:08Z",
+      "versions": {
+        "26.10.1-rc.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.x <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface": "0.3.1"
+            }
+          }
+        ],
+        "26.10.1-rc.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.8 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.10.2-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.8 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.10.2-rc.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.9 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.10.2-rc.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.9 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.10.2-rc.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.9 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.10.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.9 <26.20.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.3.1"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.4.0"
+            }
+          }
+        ],
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.4.0"
             }
           }
         ]
@@ -151,6 +679,43 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
+          }
+        ]
+      }
+    },
+    "github.com/GlacieTeam/Glacie": {
+      "info": {
+        "name": "Glacie",
+        "description": "BDS Multi-version",
+        "tags": [
+          "glacie",
+          "protocol",
+          "multiversion",
+          "type:mod",
+          "platform:levilamina",
+          "platform:endstone"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 117,
+      "updated_at": "2026-08-30T20:22:50Z",
+      "versions": {
+        "3.9.1": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "3.9.2": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "3.9.3": [
+          {
+            "label": "client",
+            "dependencies": {}
           }
         ]
       }
@@ -1499,6 +2064,403 @@
         ]
       }
     },
+    "github.com/chiyan1/ChiyanMap": {
+      "info": {
+        "name": "ChiyanMap",
+        "description": "A minimap mod for Minecraft Bedrock Edition",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
+      },
+      "stars": 28,
+      "updated_at": "2026-08-30T03:03:28Z",
+      "versions": {
+        "0.1.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.1.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.2.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.3.8": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MarmieQi/LHolo": {
+      "info": {
+        "name": "LHolo",
+        "description": "Litematica-style structure projection for Minecraft Bedrock Windows clients.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 11,
+      "updated_at": "2026-08-31T20:41:02Z",
+      "versions": {
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/OEOTYAN/BedrockServerClientInterface": {
+      "info": {
+        "name": "BedrockServerClientInterface",
+        "description": "wow",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 25,
+      "updated_at": "2026-08-18T08:57:15Z",
+      "versions": {
+        "0.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
+            }
+          }
+        ],
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.7"
+            }
+          }
+        ],
+        "0.4.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/LegacyMoney": {
+      "info": {
+        "name": "LegacyMoney",
+        "description": "LLMoney, but adapted to LeviLamina",
+        "tags": [
+          "type:mod",
+          "platform:levilamina",
+          "library",
+          "economy"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 10,
+      "updated_at": "2026-08-12T08:16:35Z",
+      "versions": {
+        "0.17.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.0-rc.2"
+            }
+          }
+        ],
+        "0.17.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.18.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.18.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.19.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/LegacyRemoteCall": {
+      "info": {
+        "name": "LegacyRemoteCall",
+        "description": "A part of LegacyScriptEngine",
+        "tags": [
+          "type:mod",
+          "platform:levilamina",
+          "library",
+          "lse"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 9,
+      "updated_at": "2026-08-12T08:16:42Z",
+      "versions": {
+        "0.17.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.0-rc.2"
+            }
+          }
+        ],
+        "0.17.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.17.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.17.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.18.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.19.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/engsr6982/FastMiner": {
       "info": {
         "name": "FastMiner",
@@ -1554,6 +2516,248 @@
         ]
       }
     },
+    "github.com/IceBlcokMC/DebugShape": {
+      "info": {
+        "name": "DebugShape",
+        "description": "minecraft bedrock debug shape packet wrapper",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "type:library"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 7,
+      "updated_at": "2026-07-05T04:33:52Z",
+      "versions": {
+        "0.6.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "0.7.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.8.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.9.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.9.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/CrashLogger": {
+      "info": {
+        "name": "CrashLogger",
+        "description": "Show crash log of LeviLamina",
+        "tags": [
+          "levilamina",
+          "utility"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 7,
+      "updated_at": "2026-08-12T08:17:20Z",
+      "versions": {
+        "1.3.2": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.3.3": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ]
+      }
+    },
+    "github.com/dreamguxiang/DynamicLights": {
+      "info": {
+        "name": "DynamicLights",
+        "description": "This mod brings dynamic lighting to Minecraft",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/dreamguxiang/DynamicLights/refs/heads/main/avatar.png"
+      },
+      "stars": 6,
+      "updated_at": "2026-06-03T16:02:40Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.0.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/CoralFans-Dev/CFSP": {
+      "info": {
+        "name": "CFSP",
+        "description": "CoralFans SimulatedPlayer.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
+      },
+      "stars": 15,
+      "updated_at": "2026-08-18T09:10:28Z",
+      "versions": {
+        "26.10.0-rc.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.0 <26.20.0"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLPowerRanks": {
+      "info": {
+        "name": "PowerRanks",
+        "description": "A mod that adds a rank (privilege) system to the game.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 16,
+      "updated_at": "2026-07-30T11:21:02Z",
+      "versions": {
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iAutomaticFishing": {
+      "info": {
+        "name": "iAutomaticFishing",
+        "description": "A Minecraft Autofish mod for the LeviLamina mod loader.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
+      },
+      "stars": 7,
+      "updated_at": "2026-07-24T10:02:00Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.8.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "1.9.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ],
+        "1.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/copper-lamp/Dear-OreUI": {
       "info": {
         "name": "DearOreUI",
@@ -1564,8 +2768,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 4,
-      "updated_at": "2026-08-30T08:28:21Z",
+      "stars": 6,
+      "updated_at": "2026-08-31T13:00:47Z",
       "versions": {
         "0.1.0": [
           {
@@ -1588,6 +2792,390 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/FeixiangTMC/Stipuleroo": {
+      "info": {
+        "name": "Stipuleroo",
+        "description": "Minecraft 基岩版客户端多功能辅助模组",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "type:client"
+        ]
+      },
+      "stars": 1,
+      "updated_at": "2026-08-18T14:17:11Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.0.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLStructureLoader": {
+      "info": {
+        "name": "StructureLoader",
+        "description": "A mod that can help load MCBE structures",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 4,
+      "updated_at": "2026-05-09T10:43:37Z",
+      "versions": {
+        "1.1.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=1.0.2"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/levilamina-loc": {
+      "info": {
+        "name": "levilamina-loc",
+        "description": "Language packs of LeviLamina",
+        "tags": [
+          "levilamina"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 2,
+      "updated_at": "2026-08-12T08:17:02Z",
+      "versions": {
+        "1.6.0": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.1": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.2": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ],
+        "1.6.3": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/NameTagPlus": {
+      "info": {
+        "name": "NameTagPlus",
+        "description": "解除命名牌的使用限制",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-07-03T12:29:08Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iScale": {
+      "info": {
+        "name": "iScale",
+        "description": "A LeviLamina mod for scaling player size.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iScale/refs/heads/release/icon.gif"
+      },
+      "stars": 0,
+      "updated_at": "2026-08-10T07:11:19Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iInfiniteNightVision": {
+      "info": {
+        "name": "iInfiniteNightVision",
+        "description": "A Minecraft infinite night vision mod for the LeviLamina mod loader.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
+      },
+      "stars": 1,
+      "updated_at": "2026-07-09T08:15:14Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/VersionNotice": {
+      "info": {
+        "name": "VersionNotice",
+        "description": "提醒玩家注意客户端版本",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-04-19T01:52:17Z",
+      "versions": {
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iStructuralShift": {
+      "info": {
+        "name": "iStructuralShift",
+        "description": "A simple structural shift mod.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iStructuralShift/refs/heads/release/icon.gif"
+      },
+      "stars": 0,
+      "updated_at": "2026-08-02T11:56:34Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/PlayerIPregion": {
+      "info": {
+        "name": "PlayerIPregion",
+        "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-06-21T01:23:45Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Dofes/DataDrivenTagRegistry": {
+      "info": {
+        "name": "Data Driven Tag Registry",
+        "description": "Data-driven tag registry for LeviLamina",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-03-20T17:14:22Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Unny984/Zoomidy": {
+      "info": {
+        "name": "Zoomidy",
+        "description": "Zoomify-style smooth zoom for Minecraft Bedrock Edition",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-08-30T08:34:11Z",
+      "versions": {
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLPlaceholderApi": {
+      "info": {
+        "name": "PlaceholderApi",
+        "description": "This mod is intended for developers who want to support multilingualism.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-07-10T13:43:08Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "1.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "26.10.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.*"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
             }
           }
         ]
