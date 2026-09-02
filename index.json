@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1648,
-      "updated_at": "2026-09-01T18:20:21Z",
+      "stars": 1651,
+      "updated_at": "2026-09-02T16:43:23Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -732,7 +732,7 @@
         "avatar_url": ""
       },
       "stars": 112,
-      "updated_at": "2026-08-24T11:55:11Z",
+      "updated_at": "2026-09-02T17:14:34Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -2404,6 +2404,45 @@
         ]
       }
     },
+    "github.com/copper-lamp/Dear-OreUI": {
+      "info": {
+        "name": "DearOreUI",
+        "description": "Runtime UI framework for Minecraft Bedrock — extend OreUI (Coherent Gameface) at runtime from LeviLamina client mods. Read, transform, and inject UI declaratively.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 9,
+      "updated_at": "2026-09-02T09:15:34Z",
+      "versions": {
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.1.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LiteLDev/LegacyRemoteCall": {
       "info": {
         "name": "LegacyRemoteCall",
@@ -2761,45 +2800,6 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/copper-lamp/Dear-OreUI": {
-      "info": {
-        "name": "DearOreUI",
-        "description": "Runtime UI framework for Minecraft Bedrock — extend OreUI (Coherent Gameface) at runtime from LeviLamina client mods. Read, transform, and inject UI declaratively.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 7,
-      "updated_at": "2026-09-01T14:55:58Z",
-      "versions": {
-        "0.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.1.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.1.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
             }
           }
         ]
