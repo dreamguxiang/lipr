@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1651,
-      "updated_at": "2026-09-02T16:43:23Z",
+      "stars": 1652,
+      "updated_at": "2026-09-03T20:19:59Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -506,7 +506,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 58,
-      "updated_at": "2026-08-12T14:07:08Z",
+      "updated_at": "2026-09-03T09:58:04Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -732,7 +732,7 @@
         "avatar_url": ""
       },
       "stars": 112,
-      "updated_at": "2026-09-02T17:14:34Z",
+      "updated_at": "2026-09-03T04:34:39Z",
       "versions": {
         "0.17.0-rc.2": [
           {
