@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1653,
-      "updated_at": "2026-09-04T21:01:55Z",
+      "stars": 1655,
+      "updated_at": "2026-09-06T12:56:23Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -429,6 +429,30 @@
               "github.com/LiteLDev/bedrock-runtime-data": "26.20.4-client.7"
             }
           }
+        ],
+        "26.32.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.16.1",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.32.2-client.4"
+            }
+          }
+        ],
+        "26.32.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.16.1",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.32.2-client.5"
+            }
+          }
         ]
       }
     },
@@ -443,7 +467,7 @@
         "avatar_url": ""
       },
       "stars": 65,
-      "updated_at": "2026-08-30T08:32:29Z",
+      "updated_at": "2026-09-06T13:51:59Z",
       "versions": {
         "0.12.0": [
           {
@@ -492,6 +516,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "0.15.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
+            }
+          }
         ]
       }
     },
@@ -506,7 +538,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 59,
-      "updated_at": "2026-09-04T20:45:33Z",
+      "updated_at": "2026-09-06T17:19:48Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -732,7 +764,7 @@
         "avatar_url": ""
       },
       "stars": 112,
-      "updated_at": "2026-09-03T04:34:39Z",
+      "updated_at": "2026-09-06T13:36:30Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -2061,6 +2093,49 @@
               "github.com/LiteLDev/LegacyMoney#client": "0.19.*"
             }
           }
+        ],
+        "0.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*",
+              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
+              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
+            }
+          },
+          {
+            "label": "client_nodejs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.20.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.20.*",
+              "github.com/LiteLDev/7-zip-tooth": "26.*"
+            }
+          },
+          {
+            "label": "client_quickjs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.20.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.20.*"
+            }
+          },
+          {
+            "label": "client_lua",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.20.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.20.*"
+            }
+          },
+          {
+            "label": "client_python",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.20.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.20.*"
+            }
+          }
         ]
       }
     },
@@ -2074,8 +2149,8 @@
         ],
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
-      "stars": 28,
-      "updated_at": "2026-09-04T15:30:44Z",
+      "stars": 29,
+      "updated_at": "2026-09-06T14:40:44Z",
       "versions": {
         "0.1.1": [
           {
@@ -2228,6 +2303,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "0.3.9": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
         ]
       }
     },
@@ -2240,8 +2323,8 @@
           "type:mod"
         ]
       },
-      "stars": 11,
-      "updated_at": "2026-09-04T09:54:48Z",
+      "stars": 12,
+      "updated_at": "2026-09-05T10:59:16Z",
       "versions": {
         "26.20.1": [
           {
@@ -2360,7 +2443,7 @@
         "avatar_url": ""
       },
       "stars": 10,
-      "updated_at": "2026-08-12T08:16:35Z",
+      "updated_at": "2026-09-06T09:03:19Z",
       "versions": {
         "0.17.0-rc.1": [
           {
@@ -2401,6 +2484,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
+        ],
+        "0.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
+            }
+          }
         ]
       }
     },
@@ -2417,7 +2508,7 @@
         "avatar_url": ""
       },
       "stars": 9,
-      "updated_at": "2026-08-12T08:16:42Z",
+      "updated_at": "2026-09-06T09:06:59Z",
       "versions": {
         "0.17.0-rc.1": [
           {
@@ -2464,6 +2555,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
             }
           }
         ]
@@ -2657,7 +2756,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 15,
-      "updated_at": "2026-08-18T09:10:28Z",
+      "updated_at": "2026-09-05T09:55:11Z",
       "versions": {
         "26.10.0-rc.1": [
           {
@@ -2733,8 +2832,8 @@
           "type:mod"
         ]
       },
-      "stars": 16,
-      "updated_at": "2026-07-30T11:21:02Z",
+      "stars": 15,
+      "updated_at": "2026-09-05T14:21:02Z",
       "versions": {
         "26.20.0": [
           {
@@ -2769,7 +2868,7 @@
         "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
       },
       "stars": 7,
-      "updated_at": "2026-07-24T10:02:00Z",
+      "updated_at": "2026-09-06T15:54:06Z",
       "versions": {
         "1.0.0": [
           {
@@ -2800,6 +2899,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ],
+        "1.4.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.30.*"
             }
           }
         ]
@@ -3000,7 +3107,7 @@
         "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
       },
       "stars": 1,
-      "updated_at": "2026-07-09T08:15:14Z",
+      "updated_at": "2026-09-06T15:25:58Z",
       "versions": {
         "1.0.0": [
           {
@@ -3015,6 +3122,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.30.*"
             }
           }
         ]
