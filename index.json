@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1658,
-      "updated_at": "2026-09-08T22:24:26Z",
+      "stars": 1663,
+      "updated_at": "2026-09-09T15:10:58Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -582,7 +582,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 59,
-      "updated_at": "2026-09-08T13:50:49Z",
+      "updated_at": "2026-09-09T11:08:25Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -662,6 +662,24 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.20.0 <26.30.0",
               "github.com/OEOTYAN/BedrockServerClientInterface#client": "0.4.0"
+            }
+          }
+        ],
+        "26.32.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.32.0 <26.40.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": ">=26.32.0 <26.40.0"
+            }
+          }
+        ],
+        "26.40.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.0 <26.41.0",
+              "github.com/OEOTYAN/BedrockServerClientInterface#client": ">=26.40.0 <26.41.0"
             }
           }
         ]
@@ -2253,7 +2271,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 29,
-      "updated_at": "2026-09-08T13:35:01Z",
+      "updated_at": "2026-09-09T18:09:14Z",
       "versions": {
         "0.1.1": [
           {
@@ -2442,8 +2460,8 @@
           "type:mod"
         ]
       },
-      "stars": 14,
-      "updated_at": "2026-09-08T20:00:20Z",
+      "stars": 15,
+      "updated_at": "2026-09-09T15:53:08Z",
       "versions": {
         "26.20.1": [
           {
@@ -2521,7 +2539,7 @@
         ]
       },
       "stars": 25,
-      "updated_at": "2026-09-08T12:41:48Z",
+      "updated_at": "2026-09-09T09:31:00Z",
       "versions": {
         "0.3.0": [
           {
@@ -2560,6 +2578,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.32.0 <26.40.0"
+            }
+          }
+        ],
+        "26.40.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.0 <26.41.0"
             }
           }
         ]
@@ -2915,7 +2941,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 15,
-      "updated_at": "2026-09-08T12:15:33Z",
+      "updated_at": "2026-09-09T11:09:06Z",
       "versions": {
         "26.10.0-rc.1": [
           {
@@ -2938,6 +2964,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.32.0 <26.40.0"
+            }
+          }
+        ],
+        "26.40.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.0 <26.41.0"
             }
           }
         ]
@@ -3035,7 +3069,7 @@
         "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
       },
       "stars": 7,
-      "updated_at": "2026-09-06T15:54:06Z",
+      "updated_at": "2026-09-09T15:12:34Z",
       "versions": {
         "1.0.0": [
           {
@@ -3074,6 +3108,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.30.*"
+            }
+          }
+        ],
+        "1.5.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
             }
           }
         ]
@@ -3201,6 +3243,53 @@
         ]
       }
     },
+    "github.com/MiracleForest/iInfiniteNightVision": {
+      "info": {
+        "name": "iInfiniteNightVision",
+        "description": "A Minecraft infinite night vision mod for the LeviLamina mod loader.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
+      },
+      "stars": 1,
+      "updated_at": "2026-09-09T15:04:33Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.10.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.30.*"
+            }
+          }
+        ],
+        "1.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/MiracleForest/iScale": {
       "info": {
         "name": "iScale",
@@ -3235,7 +3324,7 @@
         ]
       },
       "stars": 1,
-      "updated_at": "2026-08-18T14:17:11Z",
+      "updated_at": "2026-09-09T10:57:01Z",
       "versions": {
         "0.0.1": [
           {
@@ -3258,45 +3347,6 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/MiracleForest/iInfiniteNightVision": {
-      "info": {
-        "name": "iInfiniteNightVision",
-        "description": "A Minecraft infinite night vision mod for the LeviLamina mod loader.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
-      },
-      "stars": 1,
-      "updated_at": "2026-09-06T15:25:58Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.10.*"
-            }
-          }
-        ],
-        "1.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina": "26.20.*"
-            }
-          }
-        ],
-        "1.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.30.*"
             }
           }
         ]
