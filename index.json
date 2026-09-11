@@ -582,7 +582,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 59,
-      "updated_at": "2026-09-10T08:36:27Z",
+      "updated_at": "2026-09-11T17:38:33Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -709,8 +709,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 49,
-      "updated_at": "2026-09-08T16:47:16Z",
+      "stars": 50,
+      "updated_at": "2026-09-10T23:56:19Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -2280,7 +2280,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 30,
-      "updated_at": "2026-09-10T15:54:15Z",
+      "updated_at": "2026-09-11T03:13:12Z",
       "versions": {
         "0.1.1": [
           {
@@ -2469,8 +2469,8 @@
           "type:mod"
         ]
       },
-      "stars": 15,
-      "updated_at": "2026-09-10T11:52:47Z",
+      "stars": 16,
+      "updated_at": "2026-09-11T11:30:30Z",
       "versions": {
         "26.20.1": [
           {
@@ -2537,6 +2537,14 @@
           }
         ],
         "26.20.9": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.10": [
           {
             "label": "client",
             "dependencies": {
