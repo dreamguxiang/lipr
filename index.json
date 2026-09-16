@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1665,
-      "updated_at": "2026-09-15T17:24:14Z",
+      "stars": 1666,
+      "updated_at": "2026-09-16T15:58:31Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2428,208 +2428,17 @@
         ]
       }
     },
-    "github.com/chiyan1/ChiyanMap": {
-      "info": {
-        "name": "ChiyanMap",
-        "description": "A minimap mod for Minecraft Bedrock Edition",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
-      },
-      "stars": 30,
-      "updated_at": "2026-09-15T07:13:12Z",
-      "versions": {
-        "0.1.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.1.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.4": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.5": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.6": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.2.7": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
-            }
-          }
-        ],
-        "0.3.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.4": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.5": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.6": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.7": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.8": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.9": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.3.10": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
-            }
-          }
-        ],
-        "0.3.11": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/MarmieQi/LHolo": {
       "info": {
         "name": "LHolo",
-        "description": "Litematica-style structure projection for Minecraft Bedrock Windows clients.",
+        "description": "适用于 Minecraft Bedrock Windows 的客户端投影模组 / Client-side projection mod for Minecraft Bedrock Windows",
         "tags": [
           "platform:levilamina",
           "type:mod"
         ]
       },
       "stars": 17,
-      "updated_at": "2026-09-15T21:43:23Z",
+      "updated_at": "2026-09-16T14:59:53Z",
       "versions": {
         "26.20.1": [
           {
@@ -2708,6 +2517,22 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.20.11": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "26.40.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
             }
           }
         ]
@@ -3069,8 +2894,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 7,
-      "updated_at": "2026-09-14T07:49:05Z",
+      "stars": 8,
+      "updated_at": "2026-09-16T14:46:54Z",
       "versions": {
         "0.6.0": [
           {
@@ -3133,7 +2958,7 @@
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
       "stars": 16,
-      "updated_at": "2026-09-13T07:01:16Z",
+      "updated_at": "2026-09-16T07:04:55Z",
       "versions": {
         "26.10.0-rc.1": [
           {
@@ -3828,6 +3653,30 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/neverforward/Insight": {
+      "info": {
+        "name": "Insight",
+        "description": "A lightweight, Jade‑like info display mod for Bedrock Edition that shows you exactly what you are looking at.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "info-display"
+        ],
+        "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
+      },
+      "stars": 0,
+      "updated_at": "2026-09-16T13:04:38Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
             }
           }
         ]
