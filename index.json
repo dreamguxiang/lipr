@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1674,
-      "updated_at": "2026-09-21T16:03:20Z",
+      "stars": 1675,
+      "updated_at": "2026-09-22T16:04:44Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -745,8 +745,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
-      "stars": 60,
-      "updated_at": "2026-09-21T01:53:17Z",
+      "stars": 61,
+      "updated_at": "2026-09-22T14:22:05Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -2772,7 +2772,7 @@
         ]
       },
       "stars": 18,
-      "updated_at": "2026-09-20T18:58:43Z",
+      "updated_at": "2026-09-22T16:19:55Z",
       "versions": {
         "26.20.1": [
           {
@@ -2895,6 +2895,14 @@
           }
         ],
         "26.51.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "26.51.2": [
           {
             "label": "client",
             "dependencies": {
@@ -3350,7 +3358,7 @@
         "avatar_url": ""
       },
       "stars": 7,
-      "updated_at": "2026-09-19T05:19:25Z",
+      "updated_at": "2026-09-22T03:30:11Z",
       "versions": {
         "0.14.0": [
           {
@@ -3408,7 +3416,23 @@
             }
           }
         ],
+        "0.16.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
         "0.17.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.17.1": [
           {
             "label": "client",
             "dependencies": {
@@ -3528,40 +3552,6 @@
         ]
       }
     },
-    "github.com/LordBombardir/LLPowerRanks": {
-      "info": {
-        "name": "PowerRanks",
-        "description": "A mod that adds a rank (privilege) system to the game.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 15,
-      "updated_at": "2026-09-05T14:21:02Z",
-      "versions": {
-        "26.20.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
-            }
-          }
-        ],
-        "26.20.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
-              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/MiracleForest/iAutomaticFishing": {
       "info": {
         "name": "iAutomaticFishing",
@@ -3573,7 +3563,7 @@
         "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iAutomaticFishing/refs/heads/release/icon.gif"
       },
       "stars": 8,
-      "updated_at": "2026-09-11T23:44:19Z",
+      "updated_at": "2026-09-22T12:59:42Z",
       "versions": {
         "1.0.0": [
           {
@@ -3622,6 +3612,48 @@
               "github.com/LiteLDev/LeviLamina#client": "26.40.*"
             }
           }
+        ],
+        "1.6.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLPowerRanks": {
+      "info": {
+        "name": "PowerRanks",
+        "description": "A mod that adds a rank (privilege) system to the game.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 15,
+      "updated_at": "2026-09-05T14:21:02Z",
+      "versions": {
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlaceholderApi#client": ">=26.20.*",
+              "github.com/LordBombardir/LLPlayerDB-Release#client": ">=26.20.*"
+            }
+          }
         ]
       }
     },
@@ -3636,7 +3668,7 @@
         ]
       },
       "stars": 4,
-      "updated_at": "2026-09-14T04:12:04Z",
+      "updated_at": "2026-09-22T11:25:50Z",
       "versions": {
         "26.40.1": [
           {
@@ -3659,6 +3691,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "26.51.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
         ]
@@ -3803,7 +3843,7 @@
         "avatar_url": "https://github.com/MiracleForest/iInfiniteNightVision/blob/main/icon.jpg?raw=true"
       },
       "stars": 1,
-      "updated_at": "2026-09-09T15:04:33Z",
+      "updated_at": "2026-09-22T13:07:44Z",
       "versions": {
         "1.0.0": [
           {
@@ -3834,6 +3874,14 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "1.4.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
         ]
@@ -3926,8 +3974,8 @@
           "type:mod"
         ]
       },
-      "stars": 1,
-      "updated_at": "2026-09-21T12:54:04Z",
+      "stars": 2,
+      "updated_at": "2026-09-22T14:38:26Z",
       "versions": {
         "0.1.0": [
           {
