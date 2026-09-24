@@ -3317,7 +3317,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-08-29T10:14:19Z",
+      "updated_at": "2026-09-24T15:31:37Z",
       "versions": {
         "0.14.0-rc.1": [
           {
@@ -3356,6 +3356,22 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina": "26.20.*"
+            }
+          }
+        ],
+        "0.19.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.40.*"
+            }
+          }
+        ],
+        "0.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina": "26.51.*"
             }
           }
         ]
