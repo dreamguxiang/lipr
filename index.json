@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1675,
-      "updated_at": "2026-09-22T16:04:44Z",
+      "stars": 1677,
+      "updated_at": "2026-09-25T11:24:56Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -1073,8 +1073,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 112,
-      "updated_at": "2026-09-21T14:22:51Z",
+      "stars": 113,
+      "updated_at": "2026-09-25T11:48:33Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -2779,8 +2779,8 @@
           "type:mod"
         ]
       },
-      "stars": 18,
-      "updated_at": "2026-09-22T16:19:55Z",
+      "stars": 19,
+      "updated_at": "2026-09-25T07:29:34Z",
       "versions": {
         "26.20.1": [
           {
@@ -3780,28 +3780,6 @@
         ]
       }
     },
-    "github.com/Unny984/Zoomidy": {
-      "info": {
-        "name": "Zoomidy",
-        "description": "Zoomify-style smooth zoom for Minecraft Bedrock Edition",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 2,
-      "updated_at": "2026-08-30T08:34:11Z",
-      "versions": {
-        "0.3.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/LordBombardir/LLStructureLoader": {
       "info": {
         "name": "StructureLoader",
@@ -4269,7 +4247,7 @@
         "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
       },
       "stars": 1,
-      "updated_at": "2026-09-19T11:31:23Z",
+      "updated_at": "2026-09-25T07:48:04Z",
       "versions": {
         "0.0.1": [
           {
@@ -4292,6 +4270,56 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Unny984/Zoomidy": {
+      "info": {
+        "name": "Zoomidy",
+        "description": "Zoomify-style smooth zoom for Minecraft Bedrock Edition",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-09-25T06:35:09Z",
+      "versions": {
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.5.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          },
+          {
+            "label": "client_26_10",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          },
+          {
+            "label": "client_26_51",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
         ]
