@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1677,
-      "updated_at": "2026-09-25T11:24:56Z",
+      "stars": 1678,
+      "updated_at": "2026-09-26T13:27:34Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -745,8 +745,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
       },
-      "stars": 61,
-      "updated_at": "2026-09-22T14:22:05Z",
+      "stars": 62,
+      "updated_at": "2026-09-26T17:34:24Z",
       "versions": {
         "26.10.1-rc.2": [
           {
@@ -1073,8 +1073,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 113,
-      "updated_at": "2026-09-25T11:48:33Z",
+      "stars": 114,
+      "updated_at": "2026-09-26T04:10:37Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -2780,7 +2780,7 @@
         ]
       },
       "stars": 19,
-      "updated_at": "2026-09-25T07:29:34Z",
+      "updated_at": "2026-09-26T06:28:49Z",
       "versions": {
         "26.20.1": [
           {
@@ -2930,8 +2930,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 12,
-      "updated_at": "2026-09-21T01:50:02Z",
+      "stars": 13,
+      "updated_at": "2026-09-26T09:19:30Z",
       "versions": {
         "0.1.0": [
           {
@@ -3780,6 +3780,131 @@
         ]
       }
     },
+    "github.com/FeixiangTMC/Stipuleroo": {
+      "info": {
+        "name": "Stipuleroo",
+        "description": "Minecraft 基岩版客户端多功能辅助模组",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "type:client"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-09-26T02:18:00Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+            }
+          }
+        ],
+        "0.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.0.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "0.0.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "0.0.5": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "0.0.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/CoralFans-Dev/CoralMap": {
+      "info": {
+        "name": "CoralMap",
+        "description": "CoralFans' map mod",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/CoralFans-Dev/CoralFans-doc/refs/heads/main/docs/icon.png"
+      },
+      "stars": 2,
+      "updated_at": "2026-09-26T15:00:17Z",
+      "versions": {
+        "26.51.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.0 <26.52.0"
+            }
+          }
+        ],
+        "26.51.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.0 <26.52.0"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/copper-lamp/BSChat": {
+      "info": {
+        "name": "Better Speech Chat",
+        "description": "实时语音聊天：支持服务端混音并本地语音转文字，混合音频流与字幕回传客户端",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 2,
+      "updated_at": "2026-09-26T11:09:23Z",
+      "versions": {
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.14"
+            }
+          }
+        ],
+        "0.1.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.14"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LordBombardir/LLStructureLoader": {
       "info": {
         "name": "StructureLoader",
@@ -3967,56 +4092,31 @@
         ]
       }
     },
-    "github.com/FeixiangTMC/Stipuleroo": {
+    "github.com/amatouhake/Lamium": {
       "info": {
-        "name": "Stipuleroo",
-        "description": "Minecraft 基岩版客户端多功能辅助模组",
+        "name": "Lamium",
+        "description": "Client-side quality-of-life tools for LeviLamina Client",
         "tags": [
           "platform:levilamina",
-          "type:mod",
-          "type:client"
+          "type:mod"
         ]
       },
-      "stars": 2,
-      "updated_at": "2026-09-14T17:59:05Z",
+      "stars": 0,
+      "updated_at": "2026-09-26T21:17:34Z",
       "versions": {
-        "0.0.1": [
+        "0.1.1": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
         ],
-        "0.0.2": [
+        "0.1.2": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.0.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "0.0.4": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
-            }
-          }
-        ],
-        "0.0.5": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
         ]
@@ -4031,8 +4131,8 @@
           "type:mod"
         ]
       },
-      "stars": 2,
-      "updated_at": "2026-09-22T14:38:26Z",
+      "stars": 3,
+      "updated_at": "2026-09-26T09:41:18Z",
       "versions": {
         "0.1.0": [
           {
@@ -4247,7 +4347,7 @@
         "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
       },
       "stars": 1,
-      "updated_at": "2026-09-25T07:48:04Z",
+      "updated_at": "2026-09-26T12:31:26Z",
       "versions": {
         "0.0.1": [
           {

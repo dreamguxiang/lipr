@@ -1,0 +1,22 @@
+{
+  "format_version": 3,
+  "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+  "tooth": "github.com/amatouhake/Lamium",
+  "version": "0.1.1",
+  "info": {
+    "name": "Lamium",
+    "description": "Client-side quality-of-life tools for LeviLamina Client",
+    "tags": [
+      "platform:levilamina",
+      "type:mod"
+    ]
+  },
+  "variants": [
+    {
+      "label": "client",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+      }
+    }
+  ]
+}
