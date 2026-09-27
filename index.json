@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1678,
-      "updated_at": "2026-09-26T13:27:34Z",
+      "stars": 1680,
+      "updated_at": "2026-09-27T01:30:12Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2779,8 +2779,8 @@
           "type:mod"
         ]
       },
-      "stars": 19,
-      "updated_at": "2026-09-26T06:28:49Z",
+      "stars": 21,
+      "updated_at": "2026-09-27T03:47:02Z",
       "versions": {
         "26.20.1": [
           {
@@ -3790,8 +3790,8 @@
           "type:client"
         ]
       },
-      "stars": 2,
-      "updated_at": "2026-09-26T02:18:00Z",
+      "stars": 3,
+      "updated_at": "2026-09-27T14:16:09Z",
       "versions": {
         "0.0.1": [
           {
@@ -3834,6 +3834,44 @@
           }
         ],
         "0.0.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/amatouhake/Lamium": {
+      "info": {
+        "name": "Lamium",
+        "description": "Client-side quality-of-life tools for LeviLamina Client",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 2,
+      "updated_at": "2026-09-27T16:24:40Z",
+      "versions": {
+        "0.1.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.1.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.1.3": [
           {
             "label": "client",
             "dependencies": {
@@ -3939,7 +3977,7 @@
         "avatar_url": "https://example.com/my-mod/avatar.png"
       },
       "stars": 3,
-      "updated_at": "2026-09-23T13:34:25Z",
+      "updated_at": "2026-09-27T12:50:01Z",
       "versions": {
         "26.40.0": [
           {
@@ -3966,6 +4004,14 @@
           }
         ],
         "26.51.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.0 <26.52.0"
+            }
+          }
+        ],
+        "26.51.5": [
           {
             "label": "client",
             "dependencies": {
@@ -4092,36 +4138,6 @@
         ]
       }
     },
-    "github.com/amatouhake/Lamium": {
-      "info": {
-        "name": "Lamium",
-        "description": "Client-side quality-of-life tools for LeviLamina Client",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-09-26T21:17:34Z",
-      "versions": {
-        "0.1.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "0.1.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/amatouhake/LaminaPeek": {
       "info": {
         "name": "LaminaPeek",
@@ -4131,8 +4147,8 @@
           "type:mod"
         ]
       },
-      "stars": 3,
-      "updated_at": "2026-09-26T09:41:18Z",
+      "stars": 4,
+      "updated_at": "2026-09-27T13:58:57Z",
       "versions": {
         "0.1.0": [
           {
