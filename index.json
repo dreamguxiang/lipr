@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1688,
-      "updated_at": "2026-10-02T14:58:33Z",
+      "stars": 1687,
+      "updated_at": "2026-10-03T14:44:55Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2823,8 +2823,8 @@
           "type:mod"
         ]
       },
-      "stars": 22,
-      "updated_at": "2026-10-02T12:34:57Z",
+      "stars": 23,
+      "updated_at": "2026-10-03T14:41:59Z",
       "versions": {
         "26.20.1": [
           {
@@ -2982,8 +2982,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
-      "stars": 14,
-      "updated_at": "2026-10-02T21:20:20Z",
+      "stars": 17,
+      "updated_at": "2026-10-03T09:38:42Z",
       "versions": {
         "0.1.1": [
           {
@@ -3858,7 +3858,7 @@
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
       "stars": 4,
-      "updated_at": "2026-10-02T15:17:55Z",
+      "updated_at": "2026-10-03T11:20:00Z",
       "versions": {
         "0.1.1": [
           {
@@ -4069,6 +4069,14 @@
           }
         ],
         "0.5.0-mc26.51": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.5.1-mc26.51": [
           {
             "label": "client",
             "dependencies": {
@@ -4770,7 +4778,7 @@
         "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
       },
       "stars": 1,
-      "updated_at": "2026-10-02T14:26:49Z",
+      "updated_at": "2026-10-03T15:48:32Z",
       "versions": {
         "0.0.1": [
           {
