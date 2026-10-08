@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1690,
-      "updated_at": "2026-10-06T19:20:10Z",
+      "stars": 1691,
+      "updated_at": "2026-10-07T21:44:25Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -913,7 +913,7 @@
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
       "stars": 51,
-      "updated_at": "2026-10-05T12:38:12Z",
+      "updated_at": "2026-10-07T01:30:04Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -1027,7 +1027,7 @@
             }
           }
         ],
-        "0.3.1-mc26.51": [
+        "0.3.1-mc26.50": [
           {
             "label": "client",
             "dependencies": {
@@ -2825,7 +2825,7 @@
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
       "stars": 24,
-      "updated_at": "2026-10-06T19:27:29Z",
+      "updated_at": "2026-10-07T20:35:23Z",
       "versions": {
         "0.1.1": [
           {
@@ -2868,6 +2868,14 @@
           }
         ],
         "0.1.6": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.1.7": [
           {
             "label": "client",
             "dependencies": {
@@ -3547,8 +3555,8 @@
         ],
         "avatar_url": ""
       },
-      "stars": 7,
-      "updated_at": "2026-10-05T11:56:38Z",
+      "stars": 8,
+      "updated_at": "2026-10-07T09:02:00Z",
       "versions": {
         "0.14.0": [
           {
@@ -3857,8 +3865,8 @@
           "type:loader"
         ]
       },
-      "stars": 5,
-      "updated_at": "2026-10-05T11:04:09Z",
+      "stars": 6,
+      "updated_at": "2026-10-07T03:08:23Z",
       "versions": {
         "26.40.1": [
           {
@@ -3948,8 +3956,8 @@
           "type:client"
         ]
       },
-      "stars": 5,
-      "updated_at": "2026-10-01T20:27:34Z",
+      "stars": 6,
+      "updated_at": "2026-10-07T18:27:21Z",
       "versions": {
         "0.0.1": [
           {
@@ -4282,6 +4290,29 @@
         ]
       }
     },
+    "github.com/PuceLi/NoteBot": {
+      "info": {
+        "name": "NoteBot",
+        "description": "A client-side feature that automatically plays songs by tuning and hitting nearby Note Blocks based on loaded NBS (Noteblock Studio) files",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://github.com/PuceLi/NoteBot/NoteBlock.png"
+      },
+      "stars": 1,
+      "updated_at": "2026-10-07T13:52:27Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/MRUIAW/BedrockBoatHUD": {
       "info": {
         "name": "BoatHUD",
@@ -4481,148 +4512,6 @@
         ]
       }
     },
-    "github.com/LordBombardir/LLPlaceholderApi": {
-      "info": {
-        "name": "PlaceholderApi",
-        "description": "This mod is intended for developers who want to support multilingualism.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-07-10T13:43:08Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
-            }
-          }
-        ],
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
-            }
-          }
-        ],
-        "1.0.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
-            }
-          }
-        ],
-        "26.10.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.10.*"
-            }
-          }
-        ],
-        "26.20.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
-            }
-          }
-        ],
-        "26.20.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
-            }
-          }
-        ],
-        "26.20.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/neverforward/Insight": {
-      "info": {
-        "name": "Insight",
-        "description": "A lightweight, Jade‑like info display mod for Bedrock Edition that shows you exactly what you are looking at.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "info-display"
-        ],
-        "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
-      },
-      "stars": 1,
-      "updated_at": "2026-10-04T14:03:27Z",
-      "versions": {
-        "0.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.0.3": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
-            }
-          }
-        ],
-        "0.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
-            }
-          }
-        ],
-        "0.3.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "0.3.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "0.4.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/Unny984/Zoomidy": {
       "info": {
         "name": "Zoomidy",
@@ -4658,6 +4547,36 @@
           },
           {
             "label": "client_26_51",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/jasmijasmi/VV-toggle": {
+      "info": {
+        "name": "Vibrant Toggle",
+        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-10-07T16:19:06Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
@@ -4794,6 +4713,148 @@
           }
         ],
         "0.1.2-mc26.50": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/LordBombardir/LLPlaceholderApi": {
+      "info": {
+        "name": "PlaceholderApi",
+        "description": "This mod is intended for developers who want to support multilingualism.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-07-10T13:43:08Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "1.0.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=1.9.*"
+            }
+          }
+        ],
+        "26.10.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.*"
+            }
+          }
+        ],
+        "26.20.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ],
+        "26.20.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.20.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/neverforward/Insight": {
+      "info": {
+        "name": "Insight",
+        "description": "A lightweight, Jade‑like info display mod for Bedrock Edition that shows you exactly what you are looking at.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "info-display"
+        ],
+        "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
+      },
+      "stars": 1,
+      "updated_at": "2026-10-04T14:03:27Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.0.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "0.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.3.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.4.0": [
           {
             "label": "client",
             "dependencies": {
