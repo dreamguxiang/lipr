@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1691,
-      "updated_at": "2026-10-07T21:44:25Z",
+      "stars": 1692,
+      "updated_at": "2026-10-08T06:30:19Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2824,8 +2824,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
-      "stars": 24,
-      "updated_at": "2026-10-07T20:35:23Z",
+      "stars": 26,
+      "updated_at": "2026-10-08T23:49:39Z",
       "versions": {
         "0.1.1": [
           {
@@ -4356,8 +4356,8 @@
         ],
         "avatar_url": "https://github.com/MRUIAW.png"
       },
-      "stars": 2,
-      "updated_at": "2026-10-05T12:45:07Z",
+      "stars": 4,
+      "updated_at": "2026-10-08T12:21:00Z",
       "versions": {
         "1.0.0-mc26.51": [
           {
@@ -4459,6 +4459,37 @@
         ]
       }
     },
+    "github.com/LL-LSE-Lab/MelonRind": {
+      "info": {
+        "name": "MelonRind",
+        "description": "HUD enhancement mod bringing AppleSkin-like features to Minecraft Bedrock Edition (LeviLamina Client).",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/LL-LSE-Lab/MelonRind/main/assets/preview.png"
+      },
+      "stars": 0,
+      "updated_at": "2026-09-23T06:52:34Z",
+      "versions": {
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.14"
+            }
+          }
+        ],
+        "0.1.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.10.14"
+            }
+          }
+        ]
+      }
+    },
     "github.com/PuceLi/PlayerIPregion": {
       "info": {
         "name": "PlayerIPregion",
@@ -4485,28 +4516,6 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/Dofes/DataDrivenTagRegistry": {
-      "info": {
-        "name": "Data Driven Tag Registry",
-        "description": "Data-driven tag registry for LeviLamina",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-03-20T17:14:22Z",
-      "versions": {
-        "0.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
             }
           }
         ]
@@ -4717,6 +4726,28 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/Dofes/DataDrivenTagRegistry": {
+      "info": {
+        "name": "Data Driven Tag Registry",
+        "description": "Data-driven tag registry for LeviLamina",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-03-20T17:14:22Z",
+      "versions": {
+        "0.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.8.*"
             }
           }
         ]
