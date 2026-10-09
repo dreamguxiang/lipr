@@ -8,7 +8,7 @@
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
       "stars": 1692,
-      "updated_at": "2026-10-08T06:30:19Z",
+      "updated_at": "2026-10-09T12:04:24Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2825,7 +2825,7 @@
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
       "stars": 26,
-      "updated_at": "2026-10-08T23:49:39Z",
+      "updated_at": "2026-10-09T23:47:35Z",
       "versions": {
         "0.1.1": [
           {
@@ -2882,6 +2882,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
+        ],
+        "0.1.8": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
         ]
       }
     },
@@ -2894,8 +2902,8 @@
           "type:mod"
         ]
       },
-      "stars": 24,
-      "updated_at": "2026-10-06T03:49:02Z",
+      "stars": 25,
+      "updated_at": "2026-10-09T07:53:29Z",
       "versions": {
         "26.20.1": [
           {
@@ -3058,7 +3066,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-10-06T13:04:18Z",
+      "updated_at": "2026-10-09T16:09:23Z",
       "versions": {
         "1.17.0": [
           {
@@ -4356,8 +4364,8 @@
         ],
         "avatar_url": "https://github.com/MRUIAW.png"
       },
-      "stars": 4,
-      "updated_at": "2026-10-08T12:21:00Z",
+      "stars": 5,
+      "updated_at": "2026-10-09T11:48:07Z",
       "versions": {
         "1.0.0-mc26.51": [
           {
@@ -4459,6 +4467,24 @@
         ]
       }
     },
+    "github.com/LiteLDev/mimalloc": {
+      "info": {
+        "name": "mimalloc",
+        "description": "mimalloc is a compact general purpose allocator with excellent performance.",
+        "tags": [],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-10-09T10:58:18Z",
+      "versions": {
+        "3.5.4": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ]
+      }
+    },
     "github.com/LL-LSE-Lab/MelonRind": {
       "info": {
         "name": "MelonRind",
@@ -4485,37 +4511,6 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": ">=26.10.14"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/PuceLi/PlayerIPregion": {
-      "info": {
-        "name": "PlayerIPregion",
-        "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 0,
-      "updated_at": "2026-06-21T01:23:45Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
-            }
-          }
-        ],
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
             }
           }
         ]
@@ -4726,6 +4721,37 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/PlayerIPregion": {
+      "info": {
+        "name": "PlayerIPregion",
+        "description": "通过本地数据库（xdb）获取玩家 IP 地址的地理位置和 ISP",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-06-21T01:23:45Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          }
+        ],
+        "1.0.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
             }
           }
         ]
