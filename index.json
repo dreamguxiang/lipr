@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1693,
-      "updated_at": "2026-10-11T18:03:01Z",
+      "stars": 1694,
+      "updated_at": "2026-10-12T18:03:07Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -655,6 +655,18 @@
               "github.com/LiteLDev/PeEditor": "3.9.*",
               "github.com/LiteLDev/PreLoader": "1.16.3",
               "github.com/LiteLDev/bedrock-runtime-data": "26.51.1-client.7"
+            }
+          }
+        ],
+        "26.51.7": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/CrashLogger#client": "1.3.*",
+              "github.com/LiteLDev/levilamina-loc#client": "1.6.*",
+              "github.com/LiteLDev/PeEditor": "3.9.*",
+              "github.com/LiteLDev/PreLoader": "1.16.5",
+              "github.com/LiteLDev/bedrock-runtime-data": "26.51.1-client.11"
             }
           }
         ]
@@ -2904,7 +2916,7 @@
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
       "stars": 27,
-      "updated_at": "2026-10-11T14:31:32Z",
+      "updated_at": "2026-10-12T17:44:03Z",
       "versions": {
         "0.1.1": [
           {
@@ -3484,6 +3496,111 @@
         ]
       }
     },
+    "github.com/LiteLDev/iListenAttentively": {
+      "info": {
+        "name": "iListenAttentively",
+        "description": "iListenAttentively is a rich and modern LeviLamina Minecraft event library!",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "event",
+          "library"
+        ],
+        "avatar_url": ""
+      },
+      "stars": 9,
+      "updated_at": "2026-10-12T13:00:59Z",
+      "versions": {
+        "0.14.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.14.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.14.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.15.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.15.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.16.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.16.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.16.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
+            }
+          }
+        ],
+        "0.17.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.17.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.17.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.7 <26.60.0"
+            }
+          }
+        ]
+      }
+    },
     "github.com/IceBlcokMC/DebugShape": {
       "info": {
         "name": "DebugShape",
@@ -3654,103 +3771,6 @@
         ]
       }
     },
-    "github.com/LiteLDev/iListenAttentively": {
-      "info": {
-        "name": "iListenAttentively",
-        "description": "iListenAttentively is a rich and modern LeviLamina Minecraft event library!",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "event",
-          "library"
-        ],
-        "avatar_url": ""
-      },
-      "stars": 9,
-      "updated_at": "2026-10-11T14:08:29Z",
-      "versions": {
-        "0.14.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.14.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.14.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.15.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.15.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.16.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.16.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.16.2": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.40.2 <26.50.0"
-            }
-          }
-        ],
-        "0.17.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "0.17.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
     "github.com/MRUIAW/Animated-Mojang": {
       "info": {
         "name": "Animated Mojang",
@@ -3762,8 +3782,8 @@
         ],
         "avatar_url": "https://github.com/MRUIAW.png"
       },
-      "stars": 7,
-      "updated_at": "2026-10-11T20:35:49Z",
+      "stars": 8,
+      "updated_at": "2026-10-12T12:54:16Z",
       "versions": {
         "1.0.0-mc26.51": [
           {
@@ -4482,7 +4502,7 @@
         "avatar_url": "https://example.com/pocket-on-pc/avatar.png"
       },
       "stars": 0,
-      "updated_at": "2026-10-11T17:19:28Z",
+      "updated_at": "2026-10-12T18:43:19Z",
       "versions": {
         "0.1.0": [
           {
@@ -4710,24 +4730,6 @@
         ]
       }
     },
-    "github.com/LiteLDev/mimalloc": {
-      "info": {
-        "name": "mimalloc",
-        "description": "mimalloc is a compact general purpose allocator with excellent performance.",
-        "tags": [],
-        "avatar_url": ""
-      },
-      "stars": 0,
-      "updated_at": "2026-10-09T10:58:18Z",
-      "versions": {
-        "3.5.4": [
-          {
-            "label": "client",
-            "dependencies": {}
-          }
-        ]
-      }
-    },
     "github.com/Unny984/Zoomidy": {
       "info": {
         "name": "Zoomidy",
@@ -4763,6 +4765,36 @@
           },
           {
             "label": "client_26_51",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/jasmijasmi/VV-toggle": {
+      "info": {
+        "name": "Vibrant Toggle",
+        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-10-07T16:19:06Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
@@ -4972,6 +5004,24 @@
         ]
       }
     },
+    "github.com/LiteLDev/mimalloc": {
+      "info": {
+        "name": "mimalloc",
+        "description": "mimalloc is a compact general purpose allocator with excellent performance.",
+        "tags": [],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-10-09T10:58:18Z",
+      "versions": {
+        "3.5.4": [
+          {
+            "label": "client",
+            "dependencies": {}
+          }
+        ]
+      }
+    },
     "github.com/PuceLi/PlayerIPregion": {
       "info": {
         "name": "PlayerIPregion",
@@ -5158,36 +5208,6 @@
           }
         ],
         "0.4.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/jasmijasmi/VV-toggle": {
-      "info": {
-        "name": "Vibrant Toggle",
-        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-10-07T16:19:06Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "1.2.0": [
           {
             "label": "client",
             "dependencies": {
