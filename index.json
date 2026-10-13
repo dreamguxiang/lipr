@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1694,
-      "updated_at": "2026-10-12T18:03:07Z",
+      "stars": 1696,
+      "updated_at": "2026-10-13T16:04:54Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -2916,7 +2916,7 @@
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
       "stars": 27,
-      "updated_at": "2026-10-12T17:44:03Z",
+      "updated_at": "2026-10-13T20:17:30Z",
       "versions": {
         "0.1.1": [
           {
@@ -2997,6 +2997,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
+        ],
+        "0.2.1": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
         ]
       }
     },
@@ -3009,8 +3017,8 @@
           "type:mod"
         ]
       },
-      "stars": 26,
-      "updated_at": "2026-10-10T11:41:18Z",
+      "stars": 27,
+      "updated_at": "2026-10-13T15:17:30Z",
       "versions": {
         "26.20.1": [
           {
@@ -4572,7 +4580,7 @@
         "avatar_url": "https://github.com/PuceLi/NoteBot/NoteBlock.png"
       },
       "stars": 1,
-      "updated_at": "2026-10-07T13:52:27Z",
+      "updated_at": "2026-10-13T14:42:49Z",
       "versions": {
         "1.0.0": [
           {
@@ -4765,36 +4773,6 @@
           },
           {
             "label": "client_26_51",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/jasmijasmi/VV-toggle": {
-      "info": {
-        "name": "Vibrant Toggle",
-        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-10-07T16:19:06Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "1.2.0": [
-          {
-            "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
@@ -5208,6 +5186,36 @@
           }
         ],
         "0.4.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/jasmijasmi/VV-toggle": {
+      "info": {
+        "name": "Vibrant Toggle",
+        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-10-07T16:19:06Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "1.2.0": [
           {
             "label": "client",
             "dependencies": {
