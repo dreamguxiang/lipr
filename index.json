@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://lamina.levimc.org/logo.svg"
       },
-      "stars": 1696,
-      "updated_at": "2026-10-13T16:04:54Z",
+      "stars": 1697,
+      "updated_at": "2026-10-15T14:56:02Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -924,8 +924,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 51,
-      "updated_at": "2026-10-11T11:16:10Z",
+      "stars": 52,
+      "updated_at": "2026-10-14T20:07:28Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -2915,8 +2915,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
-      "stars": 27,
-      "updated_at": "2026-10-13T20:17:30Z",
+      "stars": 28,
+      "updated_at": "2026-10-15T14:32:17Z",
       "versions": {
         "0.1.1": [
           {
@@ -3005,6 +3005,22 @@
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
+        ],
+        "0.2.2": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.2.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
         ]
       }
     },
@@ -3017,8 +3033,8 @@
           "type:mod"
         ]
       },
-      "stars": 27,
-      "updated_at": "2026-10-13T15:17:30Z",
+      "stars": 28,
+      "updated_at": "2026-10-14T13:24:36Z",
       "versions": {
         "26.20.1": [
           {
@@ -3181,7 +3197,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-10-11T04:15:22Z",
+      "updated_at": "2026-10-15T16:30:47Z",
       "versions": {
         "1.17.0": [
           {
@@ -4073,6 +4089,36 @@
         ]
       }
     },
+    "github.com/honeymirror/RenderDragonShaderLoader": {
+      "info": {
+        "name": "RenderDragonShaderLoader",
+        "description": "Shader pack manager & custom shader settings UI for Minecraft Bedrock (RenderDragon) on LeviLamina",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 6,
+      "updated_at": "2026-10-15T12:59:13Z",
+      "versions": {
+        "0.1.0-beta": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "0.1.1-beta": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ]
+      }
+    },
     "github.com/LiteLDev/levilamina-loc": {
       "info": {
         "name": "levilamina-loc",
@@ -4113,28 +4159,6 @@
           {
             "label": "client",
             "dependencies": {}
-          }
-        ]
-      }
-    },
-    "github.com/honeymirror/RenderDragonShaderLoader": {
-      "info": {
-        "name": "RenderDragonShaderLoader",
-        "description": "Shader pack manager & custom shader settings UI for Minecraft Bedrock (RenderDragon) on LeviLamina",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 5,
-      "updated_at": "2026-10-11T19:58:14Z",
-      "versions": {
-        "0.1.0-beta": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
-            }
           }
         ]
       }
@@ -4580,7 +4604,7 @@
         "avatar_url": "https://github.com/PuceLi/NoteBot/NoteBlock.png"
       },
       "stars": 1,
-      "updated_at": "2026-10-13T14:42:49Z",
+      "updated_at": "2026-10-15T14:54:15Z",
       "versions": {
         "1.0.0": [
           {
@@ -4588,6 +4612,24 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
+          }
+        ]
+      }
+    },
+    "github.com/LiteLDev/mimalloc": {
+      "info": {
+        "name": "mimalloc",
+        "description": "mimalloc is a compact general purpose allocator with excellent performance.",
+        "tags": [],
+        "avatar_url": ""
+      },
+      "stars": 0,
+      "updated_at": "2026-10-14T14:58:53Z",
+      "versions": {
+        "3.5.4": [
+          {
+            "label": "client",
+            "dependencies": {}
           }
         ]
       }
@@ -4624,115 +4666,35 @@
         ]
       }
     },
-    "github.com/amatouhake/LaminaPeek": {
+    "github.com/spygamingog/Animated-Mojang-Android": {
       "info": {
-        "name": "LaminaPeek",
-        "description": "Client-side item preview mod for LeviLamina Client (Shulker Box contents on hover)",
+        "name": "Animated Mojang (Android ARM64)",
+        "description": "Animated Minecraft title, 60 FPS real-time 3D cave background, and cinematic camera transitions for Minecraft Bedrock on LeviLauncher (Android ARM64). Ported by SpyGamingOG. Requires LeviLamroid.",
         "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 4,
-      "updated_at": "2026-09-27T13:58:57Z",
-      "versions": {
-        "0.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/amatouhake/LaminaSort": {
-      "info": {
-        "name": "LaminaSort",
-        "description": "Client-side inventory sorting and management mod for Minecraft Bedrock Edition, built on LeviLamina.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 1,
-      "updated_at": "2026-09-21T03:17:13Z",
-      "versions": {
-        "0.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/PuceLi/VersionNotice": {
-      "info": {
-        "name": "VersionNotice",
-        "description": "提醒玩家注意客户端版本",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
+          "platform:levilamroid",
+          "platform:levilaunchroid",
+          "platform:android-arm64",
+          "type:mod",
+          "platform:client"
         ],
-        "avatar_url": ""
+        "avatar_url": "https://github.com/spygamingog.png"
       },
       "stars": 0,
-      "updated_at": "2026-04-19T01:52:17Z",
-      "versions": {
-        "1.0.1": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/MiracleForest/iStructuralShift": {
-      "info": {
-        "name": "iStructuralShift",
-        "description": "A simple structural shift mod.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iStructuralShift/refs/heads/release/icon.gif"
-      },
-      "stars": 0,
-      "updated_at": "2026-10-10T08:20:43Z",
+      "updated_at": "2026-10-15T18:50:49Z",
       "versions": {
         "1.0.0": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+              "github.com/spygamingog/LeviLamroid": ">=1.0.0-beta"
             }
           }
         ],
-        "1.1.0": [
+        "1.0.1": [
           {
             "label": "client",
             "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
-            }
-          }
-        ],
-        "1.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
-            }
-          }
-        ],
-        "1.3.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+              "github.com/spygamingog/LeviLamroid": ">=1.0.0-beta"
             }
           }
         ]
@@ -4773,6 +4735,36 @@
           },
           {
             "label": "client_26_51",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/jasmijasmi/VV-toggle": {
+      "info": {
+        "name": "Vibrant Toggle",
+        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 0,
+      "updated_at": "2026-10-07T16:19:06Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
@@ -4982,20 +4974,116 @@
         ]
       }
     },
-    "github.com/LiteLDev/mimalloc": {
+    "github.com/amatouhake/LaminaPeek": {
       "info": {
-        "name": "mimalloc",
-        "description": "mimalloc is a compact general purpose allocator with excellent performance.",
-        "tags": [],
+        "name": "LaminaPeek",
+        "description": "Client-side item preview mod for LeviLamina Client (Shulker Box contents on hover)",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 4,
+      "updated_at": "2026-09-27T13:58:57Z",
+      "versions": {
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/amatouhake/LaminaSort": {
+      "info": {
+        "name": "LaminaSort",
+        "description": "Client-side inventory sorting and management mod for Minecraft Bedrock Edition, built on LeviLamina.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ]
+      },
+      "stars": 1,
+      "updated_at": "2026-09-21T03:17:13Z",
+      "versions": {
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/PuceLi/VersionNotice": {
+      "info": {
+        "name": "VersionNotice",
+        "description": "提醒玩家注意客户端版本",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
         "avatar_url": ""
       },
       "stars": 0,
-      "updated_at": "2026-10-09T10:58:18Z",
+      "updated_at": "2026-04-19T01:52:17Z",
       "versions": {
-        "3.5.4": [
+        "1.0.1": [
           {
             "label": "client",
-            "dependencies": {}
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "1.9.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/MiracleForest/iStructuralShift": {
+      "info": {
+        "name": "iStructuralShift",
+        "description": "A simple structural shift mod.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/MiracleForest/iStructuralShift/refs/heads/release/icon.gif"
+      },
+      "stars": 0,
+      "updated_at": "2026-10-10T08:20:43Z",
+      "versions": {
+        "1.0.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          }
+        ],
+        "1.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
+            }
+          }
+        ],
+        "1.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          }
+        ],
+        "1.3.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
           }
         ]
       }
@@ -5186,36 +5274,6 @@
           }
         ],
         "0.4.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ]
-      }
-    },
-    "github.com/jasmijasmi/VV-toggle": {
-      "info": {
-        "name": "Vibrant Toggle",
-        "description": "Press Y to toggle Vibrant Visuals with LeviLamina Client 26.51.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ]
-      },
-      "stars": 0,
-      "updated_at": "2026-10-07T16:19:06Z",
-      "versions": {
-        "1.0.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
-            }
-          }
-        ],
-        "1.2.0": [
           {
             "label": "client",
             "dependencies": {
