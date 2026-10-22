@@ -8,7 +8,7 @@
         "avatar_url": "https://docs.levimc.org/LeviLamina/logo.svg"
       },
       "stars": 1699,
-      "updated_at": "2026-10-21T20:03:44Z",
+      "updated_at": "2026-10-22T12:12:37Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -924,8 +924,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 51,
-      "updated_at": "2026-10-19T09:22:12Z",
+      "stars": 53,
+      "updated_at": "2026-10-22T03:01:42Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -1123,8 +1123,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
-      "stars": 36,
-      "updated_at": "2026-10-21T19:53:00Z",
+      "stars": 37,
+      "updated_at": "2026-10-22T06:53:53Z",
       "versions": {
         "0.1.1": [
           {
@@ -1223,6 +1223,14 @@
           }
         ],
         "0.2.3": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.3.0": [
           {
             "label": "client",
             "dependencies": {
@@ -3231,7 +3239,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-10-21T16:50:15Z",
+      "updated_at": "2026-10-22T16:38:51Z",
       "versions": {
         "1.17.0": [
           {
@@ -5111,39 +5119,6 @@
         ]
       }
     },
-    "github.com/theaddonn/Do-A-Barrel-Roll-Bedrock": {
-      "info": {
-        "name": "Do a Barrel Roll",
-        "description": "Full pitch, yaw and roll elytra flight for Minecraft Bedrock, ported from the Do a Barrel Roll Java mod.",
-        "tags": [
-          "platform:levilamina",
-          "type:mod",
-          "platform:client",
-          "platform:server"
-        ],
-        "avatar_url": "https://github.com/theaddonn.png"
-      },
-      "stars": 1,
-      "updated_at": "2026-10-20T06:14:39Z",
-      "versions": {
-        "0.1.0-mc26.51": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.6"
-            }
-          }
-        ],
-        "0.2.0-mc26.51": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.6"
-            }
-          }
-        ]
-      }
-    },
     "github.com/troveminecraft/ShanHai": {
       "info": {
         "name": "山&海",
@@ -5157,7 +5132,7 @@
         "avatar_url": "https://raw.githubusercontent.com/troveminecraft/ShanHai/main/docs/assets/shan-hai.png"
       },
       "stars": 2,
-      "updated_at": "2026-10-21T14:56:39Z",
+      "updated_at": "2026-10-22T15:16:08Z",
       "versions": {
         "0.1.0": [
           {
@@ -5193,37 +5168,6 @@
         ]
       }
     },
-    "github.com/ShangguanXi/Advancements-ll-release": {
-      "info": {
-        "name": "Advancements",
-        "description": "Java Edition advancements for Minecraft Bedrock, as a native LeviLamina mod",
-        "tags": [
-          "platform:levilamina",
-          "type:mod"
-        ],
-        "avatar_url": "https://raw.githubusercontent.com/ShangguanXi/Advancements-ll-release/HEAD/icon.jpg"
-      },
-      "stars": 3,
-      "updated_at": "2026-10-16T23:58:09Z",
-      "versions": {
-        "0.1.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": "26.51.7"
-            }
-          }
-        ],
-        "0.2.0": [
-          {
-            "label": "client",
-            "dependencies": {
-              "github.com/LiteLDev/LeviLamina#client": ">=26.51.7"
-            }
-          }
-        ]
-      }
-    },
     "github.com/wo55555/OptiPiston": {
       "info": {
         "name": "OptiPiston",
@@ -5238,7 +5182,7 @@
         "avatar_url": "https://raw.githubusercontent.com/wo55555/OptiPiston/main/assets/icon.png"
       },
       "stars": 2,
-      "updated_at": "2026-10-10T12:10:38Z",
+      "updated_at": "2026-10-22T05:30:47Z",
       "versions": {
         "0.1.0-mc26.10": [
           {
@@ -5421,6 +5365,69 @@
             "label": "client_mc26_50",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ],
+        "0.2.0": [
+          {
+            "label": "client_mc26_10",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.10.*"
+            }
+          },
+          {
+            "label": "client_mc26_20",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.20.*"
+            }
+          },
+          {
+            "label": "client_mc26_30",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.32.*"
+            }
+          },
+          {
+            "label": "client_mc26_40",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.40.*"
+            }
+          },
+          {
+            "label": "client_mc26_50",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/ShangguanXi/Advancements-ll-release": {
+      "info": {
+        "name": "Advancements",
+        "description": "Java Edition advancements for Minecraft Bedrock, as a native LeviLamina mod",
+        "tags": [
+          "platform:levilamina",
+          "type:mod"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/ShangguanXi/Advancements-ll-release/HEAD/icon.jpg"
+      },
+      "stars": 3,
+      "updated_at": "2026-10-16T23:58:09Z",
+      "versions": {
+        "0.1.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.7"
+            }
+          }
+        ],
+        "0.2.0": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.7"
             }
           }
         ]
@@ -5752,6 +5759,39 @@
             "label": "client",
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
+        ]
+      }
+    },
+    "github.com/theaddonn/Do-A-Barrel-Roll-Bedrock": {
+      "info": {
+        "name": "Do a Barrel Roll",
+        "description": "Full pitch, yaw and roll elytra flight for Minecraft Bedrock, ported from the Do a Barrel Roll Java mod.",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "platform:client",
+          "platform:server"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/theaddonn/Do-A-Barrel-Roll-Bedrock/refs/heads/main/resources/pack_icon.png"
+      },
+      "stars": 2,
+      "updated_at": "2026-10-22T17:54:29Z",
+      "versions": {
+        "0.1.0-mc26.51": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.6"
+            }
+          }
+        ],
+        "0.2.0-mc26.51": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.6"
             }
           }
         ]
