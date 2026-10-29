@@ -1,0 +1,27 @@
+{
+  "format_version": 3,
+  "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+  "tooth": "github.com/LiteLDev/Complementaries",
+  "version": "0.1.0",
+  "info": {
+    "name": "Complementaries",
+    "description": "Supplementaries for Minecraft Bedrock Edition: vanilla+ blocks and items such as jars, signposts and faucets",
+    "tags": [
+      "platform:levilamina",
+      "type:mod",
+      "server",
+      "client",
+      "category:game-mechanics",
+      "category:decoration",
+      "vanilla-plus"
+    ]
+  },
+  "variants": [
+    {
+      "label": "client",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+      }
+    }
+  ]
+}
