@@ -1,0 +1,27 @@
+{
+  "format_version": 3,
+  "format_uuid": "289f771f-2c9a-4d73-9f3f-8492495a924d",
+  "tooth": "github.com/LiteLDev/Lepton",
+  "version": "0.1.0",
+  "info": {
+    "name": "Lepton",
+    "description": "Quark for Minecraft Bedrock Edition: small vanilla+ improvements, each one a module you can turn off",
+    "tags": [
+      "platform:levilamina",
+      "type:mod",
+      "server",
+      "client",
+      "category:game-mechanics",
+      "category:utility",
+      "vanilla-plus"
+    ]
+  },
+  "variants": [
+    {
+      "label": "client",
+      "dependencies": {
+        "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+      }
+    }
+  ]
+}
