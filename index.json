@@ -7,8 +7,8 @@
         "tags": [],
         "avatar_url": "https://docs.levimc.org/LeviLamina/logo.svg"
       },
-      "stars": 1700,
-      "updated_at": "2026-10-30T10:33:53Z",
+      "stars": 1703,
+      "updated_at": "2026-10-31T19:49:55Z",
       "versions": {
         "1.8.0-rc.1": [
           {
@@ -949,8 +949,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/wo55555/Playback/main/assets/pack_icon.png"
       },
-      "stars": 55,
-      "updated_at": "2026-10-30T19:56:10Z",
+      "stars": 56,
+      "updated_at": "2026-10-31T19:05:02Z",
       "versions": {
         "0.1.0-alpha.1": [
           {
@@ -1148,8 +1148,8 @@
         ],
         "avatar_url": "https://raw.githubusercontent.com/amatouhake/Lamium/main/assets/icon/lamium-icon-512.png"
       },
-      "stars": 39,
-      "updated_at": "2026-10-30T22:53:37Z",
+      "stars": 40,
+      "updated_at": "2026-10-31T18:00:02Z",
       "versions": {
         "0.1.1": [
           {
@@ -1283,7 +1283,7 @@
         ]
       },
       "stars": 30,
-      "updated_at": "2026-10-30T16:14:22Z",
+      "updated_at": "2026-10-31T03:23:05Z",
       "versions": {
         "26.20.1": [
           {
@@ -1460,6 +1460,14 @@
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
           }
+        ],
+        "26.51.8": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": "26.51.*"
+            }
+          }
         ]
       }
     },
@@ -1475,7 +1483,7 @@
         "avatar_url": ""
       },
       "stars": 115,
-      "updated_at": "2026-10-29T10:41:53Z",
+      "updated_at": "2026-10-31T15:24:58Z",
       "versions": {
         "0.17.0-rc.2": [
           {
@@ -3215,6 +3223,53 @@
               "github.com/LiteLDev/iListenAttentively#client": "0.17.*"
             }
           }
+        ],
+        "0.22.4": [
+          {
+            "label": "client",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.2 <26.60.0",
+              "github.com/LiteLDev/LegacyScriptEngine#client_quickjs": "{{version}}",
+              "github.com/LiteLDev/LegacyScriptEngine#client_lua": "{{version}}"
+            }
+          },
+          {
+            "label": "client_nodejs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.2 <26.60.0",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.22.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.22.*",
+              "github.com/LiteLDev/iListenAttentively#client": "0.17.*",
+              "github.com/LiteLDev/7-zip-tooth": "26.*"
+            }
+          },
+          {
+            "label": "client_quickjs",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.2 <26.60.0",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.22.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.22.*",
+              "github.com/LiteLDev/iListenAttentively#client": "0.17.*"
+            }
+          },
+          {
+            "label": "client_lua",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.2 <26.60.0",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.22.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.22.*",
+              "github.com/LiteLDev/iListenAttentively#client": "0.17.*"
+            }
+          },
+          {
+            "label": "client_python",
+            "dependencies": {
+              "github.com/LiteLDev/LeviLamina#client": ">=26.51.2 <26.60.0",
+              "github.com/LiteLDev/LegacyRemoteCall#client": "0.22.*",
+              "github.com/LiteLDev/LegacyMoney#client": "0.22.*",
+              "github.com/LiteLDev/iListenAttentively#client": "0.17.*"
+            }
+          }
         ]
       }
     },
@@ -3327,7 +3382,7 @@
         "avatar_url": ""
       },
       "stars": 14,
-      "updated_at": "2026-10-28T16:13:03Z",
+      "updated_at": "2026-10-31T15:22:52Z",
       "versions": {
         "1.17.0": [
           {
@@ -3359,6 +3414,31 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
+          }
+        ]
+      }
+    },
+    "github.com/copper-lamp/LitematicaBE": {
+      "info": {
+        "name": "LitematicaBE",
+        "description": "LSE投影插件：支持 .litematic格式的原理图，幽灵方块投影、逐层建造与轻松放置",
+        "tags": [
+          "platform:levilamina",
+          "type:mod",
+          "minecraft-bedrock",
+          "litematica",
+          "schematic",
+          "projection"
+        ],
+        "avatar_url": "https://raw.githubusercontent.com/copper-lamp/LitematicaBE/main/resources/pack_icon.png"
+      },
+      "stars": 22,
+      "updated_at": "2026-10-31T06:42:58Z",
+      "versions": {
+        "3.0.1": [
+          {
+            "label": "client",
+            "dependencies": {}
           }
         ]
       }
@@ -4305,8 +4385,8 @@
         ],
         "avatar_url": "https://avatars.githubusercontent.com/u/41941729"
       },
-      "stars": 4,
-      "updated_at": "2026-10-21T13:18:21Z",
+      "stars": 5,
+      "updated_at": "2026-10-31T06:40:44Z",
       "versions": {
         "0.1.1": [
           {
@@ -5329,7 +5409,7 @@
         "avatar_url": "https://github.com/PuceLi/NoteBot/NoteBlock.png"
       },
       "stars": 1,
-      "updated_at": "2026-10-25T15:01:08Z",
+      "updated_at": "2026-10-31T16:51:51Z",
       "versions": {
         "1.0.0": [
           {
@@ -5345,24 +5425,6 @@
             "dependencies": {
               "github.com/LiteLDev/LeviLamina#client": "26.51.*"
             }
-          }
-        ]
-      }
-    },
-    "github.com/LiteLDev/mimalloc": {
-      "info": {
-        "name": "mimalloc",
-        "description": "mimalloc is a compact general purpose allocator with excellent performance.",
-        "tags": [],
-        "avatar_url": ""
-      },
-      "stars": 0,
-      "updated_at": "2026-10-24T03:59:02Z",
-      "versions": {
-        "3.5.4": [
-          {
-            "label": "client",
-            "dependencies": {}
           }
         ]
       }
@@ -5620,7 +5682,7 @@
         "avatar_url": "https://github.com/neverforward/Insight/raw/refs/heads/main/assets/icon.png"
       },
       "stars": 1,
-      "updated_at": "2026-10-25T12:40:13Z",
+      "updated_at": "2026-10-31T14:55:00Z",
       "versions": {
         "0.0.1": [
           {
